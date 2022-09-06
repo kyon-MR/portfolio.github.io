@@ -1,0 +1,299 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eeeeee;
+}
+
+.wrapper {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  padding-top: 8px;
+}
+
+header .text p {
+  margin: 7px 0;
+  font-size: 9px;
+}
+
+header .text h3 {
+  font-size: 24px;
+  padding: 8px 0;
+}
+
+.text #reserve {
+  border: 1px solid black;
+  padding: 8px 12px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#reserve span {
+  color: red;
+}
+
+.section-header {
+  width: 100%;
+  margin: 12px 0 14px 0;
+}
+
+.section-header ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.section-header ul li {
+  background: skyblue;
+  width: calc(100%/2);
+  list-style: none;
+  box-sizing: border-box;
+  border: 1px solid #skyblue;
+  padding: 16px 0;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.section-header ul li:hover {
+  opacity: 0.3;
+}
+
+.section-header ul li span {
+  font-size: 10px;
+}
+
+/* container wrapper*/
+.container .info img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .info-text {
+  background: white;
+  margin: 8px 0 24px;
+  padding: 32px 24px;
+}
+
+.container .info-text h2 {
+  font-weight: normal;
+  border-bottom: 2px solid skyblue;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+}
+
+.container .info-text dl {
+  font-size: 14px;
+}
+
+.container .info-text dl dt {
+  margin-bottom: 32px;
+  font-weight: bold;
+}
+
+.container .info-text dl dd {
+  font-size: 13px;
+  margin-bottom: 32px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid silver;
+}
+
+.container .info-text dl dd:last-child {
+  margin-bottom: 0;
+}
+
+
+/* treat*/
+
+.general, .beauty {
+  border: 1px solid skyblue;
+  margin-top: 16px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background: white;
+}
+
+.general h2, .beauty h2 {
+  color: white;
+  background: skyblue;
+  padding: 8px 0 8px 8px;
+  font-weight: normal;
+}
+
+.treat ul {
+  list-style: square;
+  list-style-position: inside;
+  padding-left: 8px;
+}
+
+.treat ul li {
+  width: calc(100% - 20px);
+  padding: 8px 0 8px 8px;
+  border-bottom: 1px solid skyblue;
+}
+
+.treat ul li:last-child {
+  margin-bottom: 12px;
+}
+
+
+
+.treat ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.general ul li a:hover {
+  opacity: 0.4;
+  color: skyblue;
+}
+
+.beauty ul li a:hover {
+  opacity: 0.4;
+  color: lime;
+}
+
+/* section-footer */
+.section-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.section-footer {
+  border: 1px solid skyblue;
+  border-radius: 4px;
+  background: skyblue;
+}
+
+.section-footer ul {
+display: flex;
+flex-wrap: wrap;
+list-style: circle;
+}
+
+.section-footer ul li {
+  margin-left: 32px;
+  padding: 8px 0;
+  font-size: 14px;
+}
+
+.section-footer ul li a {
+  text-decoration: none;
+  color: white;
+} 
+
+.section-footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* text-footer */
+.text-footer {
+  text-align: right;
+  font-size: 14px;
+}
+
+.text-footer h3, 
+.text-footer p {
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+  font-size: 12px;
+  padding: 14px 0;
+  border-top: 1px solid skyblue;
+}
+
+
+/* @media large screen*/
+@media (min-width: 900px) {
+  body {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .section-header ul {
+    display: flex;
+  }
+
+  .section-header ul li {
+    width: 20%;
+  }
+
+  .container {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+    flex-direction: row-reverse;
+  }
+
+  .container .info {
+    width: 70%;
+    margin-top: 16px;
+  }
+
+  .container .info-text dl {
+    display: flex;
+    width: 100%;
+    margin-bottom: 12px;
+    border-bottom: 1px solid silver;
+  }
+
+  .container .info-text dl dt {
+    width: 40%;
+  } 
+
+  .container .info-text dl dd {
+    width: 100%;
+    margin-left: -40px;
+    border-bottom: none;
+  } 
+
+  .container .treat {
+    width: 30%;
+  }
+
+  .section-footer ul {
+    list-style-position: inside;
+    text-align: center;
+  }
+
+  .section-footer ul li {
+    width: calc(100%/5);
+    margin: 0 auto;
+  }
+
+
+  .text-footer {
+    display: flex;
+    padding-bottom: 14px;
+    justify-content: end;
+  }
+
+  .text-footer p {
+    margin-left: 8px;
+  }
+
+
+
+
+}

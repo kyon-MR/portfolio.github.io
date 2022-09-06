@@ -1,0 +1,185 @@
+body {
+  color: #999999;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #999999;
+}
+
+li {
+  font-size: 12px;
+}
+
+h1, h2 {
+  color: black;
+}
+
+.wrapper {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  padding-bottom: 32px;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 24px;
+  padding: 32px 0 24px;
+}
+
+header ul li a:hover {
+  opacity: 0.5;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu1 ul {
+  display: flex;
+}
+
+.menu1 ul li + li {
+  margin-left: 12px;
+}
+
+.menu2 ul {
+  display: flex;
+}
+
+.menu2 ul li + li {
+  margin-left: 12px;
+}
+
+/* .hero */
+.hero .pic img {
+  width: 100%;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.hero .texts {
+  margin-top: 12px;
+}
+
+.hero .texts h2 {
+  padding: 18px 0;
+  border-top: 1px solid #999999;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 18px;
+}
+
+.hero .texts p {
+  color: black;
+  font-size: 12px;
+  line-height: 1.5;
+} 
+
+.hero .texts #yen {
+  font-size: 14px;
+  padding: 32px 0;
+} 
+
+/* table １つ目*/
+table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  color: black;
+  font-size: 12px;
+}
+
+table th, td {
+  padding: 8px 18px;
+  border-right: 1px solid #000; 
+}
+
+table th, td:first-child {
+  width: 20%;
+}
+
+table td {
+  text-align: center;
+  border-top: 1px solid #000;
+}
+
+table td:last-child {
+  border-right: none;
+}
+
+tbody > tr:hover {
+  background: lightgray;
+}
+
+tbody select {
+  width: 100%;
+}
+
+.texts input {
+  width: 100%;
+  padding: 12px 0;
+  background: black;
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+
+/* table ２つ目*/
+.table2 th, 
+.table2 td:first-child {
+  background: lightgray;
+}
+
+.table2 table {
+  border: 1px solid #000;
+}
+
+.table2 thead th:first-child, 
+.table2 tbody td:first-child {
+  width: 10%;
+}
+
+/* footer */
+footer {
+  font-size: 8px;
+  text-align: center;
+  padding-top: 86px;
+}
+
+/* @media large screen */
+@media (min-width: 800px) {
+  .wrapper {
+    max-width: 800px;
+  }
+
+  header {
+    border-bottom: 1px solid #000;
+    padding-bottom: 36px;
+    padding-right: 56px;
+    padding-left: 56px;
+  }
+
+  .hero {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 48px;
+    margin-top: 48px;
+  }
+
+  .hero .pic img {
+    width: 400px;
+  }
+
+  .hero .texts {
+    margin-top: -1px;
+  }
+
+
+}

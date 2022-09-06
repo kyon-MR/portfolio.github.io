@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/reset.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <title>FA EXHIBITION </title>
+</head>
+<body>
+  <header class="container">
+    <section class="menu">
+      <h1><a><img src="img/logo.svg" alt="logo"></a></h1>
+      
+      <div id="open">
+        <span class="material-icons">menu</span>
+      </div>
+
+      <div id="mask" class="hidden"></div>
+
+      <div id="modal" class="hidden">
+        <nav>
+          <ul>
+            <li><a href="#">TOP</a></li>
+            <li><a href="#">INFORMATION</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">ACCESS</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="close" class="hidden">
+        <span class="material-icons">close</span>
+      </div>
+   </section>
+  </header>
+
+  <div id="mainvisual">
+    <h1><img src="img/mainvisual1.jpg" class="slide-from-left"></h1>
+    <h1><img src="img/mainvisual2.jpg" class="current"></h1>
+    <h1><img src="img/mainvisual3.jpg" class="slide-from-right"></h1>
+  </div>
+
+  <main class="container">
+    <div class="hero">
+      <div class="info animate">
+        <h2>Hello Flower!<br>
+            FA EXHIBITION 2021</h2>
+        <h3><a href="index.html">INFORMATION</a></h3>
+        <p>2021 JUL 1(THU)-3(SAT)<br>
+           DAY1 10am-6pm OTHER 10am-5:30pm</p>
+        <span>at PARK SIDE HALL</span>
+        <p>2021年7月1日(木)ー3日(土)<br>
+           Day1 10時〜18時 その他 10時〜17時30分</p>
+     </div>
+
+    <div class="gallery animate">
+      <h3><a href="index.html">GALLERY</a></h3>
+      <section class="pic">
+        <div class="flower animate">
+          <img src="img/flower1.jpg">
+        </div>
+        <div class="flower even animate">
+          <img src="img/flower2.jpg" class="delay">
+        </div>
+        <div class="flower animate">
+          <img src="img/flower3.jpg" class="delay-more">
+        </div>
+        <div class="flower even animate">
+          <img src="img/flower4.jpg" class="delays">
+        </div>
+        <div class="flower animate">
+          <img src="img/flower5.jpg" class="delays-more">
+        </div>
+        <div class="flower even animate">
+          <img src="img/flower6.jpg" class="delays-most">
+        </div>
+      </section>
+    </div>
+
+    <div id="visit" class="active">
+      <button id="btns" class="active">FOR EXHIBITION</button>
+      <button id="btns-second" class="active">FOR VISITOR</button>
+    </div>
+
+    <div class="access">
+      <h3><a href="index.html">ACCESS</a></h3>
+      <span>PARK SIDE HALL</span>
+      <p>〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>
+         PARK SIDE HALL, 1-1-1 Jiyugaoka, Meguro-ku, Tokyo</p>
+      <p>Tel: 03-1111-1111<br>
+         E-mail: info@xxxxxxx.jp</p>
+      <button id="map">GOOGLE MAP</button>
+    </div>
+
+    <div class="contact">
+      <h3><a href="index.html">CONTACT</a></h3>
+      <button id="form">出典に関するお問い合わせ</button>
+      <button id="form">その他のお問い合わせ</button>
+    </div>
+   </div>
+  </main>
+
+  <footer class="container">
+    <section class="footer-container">
+      <div class="text">
+        <p>FA EXHIBITION<br>
+           〒152-0035 東京都目黒区自由が丘1-1-1 PARK SIDE HALL<br>
+           Tel: 03-1111-1111<br>
+           E-mail: info@xxxxxxx.jp</p>
+      </div>
+      <div class="app">
+        <p><a href="#">Twitter</a></p>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Instagram</a></p>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="policy">
+        <p><a>PRIVACY POLICY</a></p>
+        <p><small>&copy;FA EXHIBITION</small></p>
+      </div>
+    </section>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

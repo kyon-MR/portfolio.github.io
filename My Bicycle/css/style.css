@@ -1,0 +1,114 @@
+/* common */
+body {
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  margin: 0;
+  width: 100px;
+  margin-left: 16px;
+}
+
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0 16px;
+}
+
+nav li {
+  width: 80px;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav li:hover {
+  background: #eee;
+}
+
+
+/* main */
+main {
+  margin: 0;
+  padding: 0;
+}
+
+main h1 {
+  color: gray;
+  text-decoration: underline;
+  text-align: center;
+  margin-top: 70px;
+}
+
+main img {
+  width: 100%;
+  max-width: 1920px;
+  height: 540px;
+  object-fit: cover;
+}
+
+
+main section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+section h2 {
+  font-size: 16px;
+}
+
+section img {
+  width: 200px;
+  height: 100px;
+}
+
+section .icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+section .desc {
+  display: block;
+  margin-left: 32px;
+}
+
+section p {
+  font-size: 14px;
+}
+
+.bicycle2, .bicycle3 {
+  margin-left: 12px;
+}
+
+.bicycle1 h2, p {
+  text-align: center;
+}
+
+.bicycle2 h2, p {
+  text-align: center;
+}
+
+.bicycle3 h2, p {
+  text-align: center;
+}
+
+/*footer*/
+footer {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 10px;
+  color: gray;
+}

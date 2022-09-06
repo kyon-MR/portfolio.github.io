@@ -1,0 +1,302 @@
+body {
+  margin: 0;
+  background: #eeeeee;
+}
+
+h1, h2, p, ul {
+  margin: 0;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+a {
+  text-decoration: none; 
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+/* header */ 
+header .container {
+  padding: 16px;
+}
+
+header .container nav ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+
+header .container nav ul li + li {
+  margin-left: 24px;
+}
+
+header .info {
+  display: none;
+}
+
+/* main */ 
+main .news {
+  width: calc(100% - 32px);
+  margin: 64px auto;
+}
+
+main h1 {
+  font-size: 48px;
+  letter-spacing: 3.5px;
+}
+
+main p, dt, dd {
+  font-size: 14px;
+}
+
+main .pic img {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+main p {
+  padding: 4px 0 16px;
+}
+
+hr {
+  margin: 0;
+}
+
+.sub-news dl{
+  margin-top: 36px;
+}
+
+
+.sub-news dl dt p{
+display: inline;
+margin-left: 16px;
+padding: 0.8px;
+border: 1px solid black;
+background-color: black;
+color: white;
+}
+
+.sub-news dl dd {
+  margin: 0;
+  padding: 16px 0 32px;
+}
+
+/* .about */
+.container .about {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+.about h1 {
+  padding-top: 32px;
+}
+
+.about p {
+  padding: 0;
+  line-height: 2.5;
+}
+
+.about #first-text {
+  padding-top: 32px;
+}
+
+.about #last-text {
+  padding-bottom: 32px;
+}
+
+
+/* .work */
+.container .business {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+}
+
+.container .work img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container .work p {
+  padding-top: 24px;
+  margin-bottom: -10px;
+}
+
+/* .company */
+.company {
+  width: calc(100% - 32px);
+  margin: 64px auto;
+}
+
+.sub-company {
+  background: white;
+  padding: 32px 16px;
+}
+
+.sub-company dl dt {
+  margin-top: 22px;
+}
+
+.sub-company dl dd {
+ margin: 0;
+ padding-left: 18px;
+}
+
+
+.company img {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.access {
+  width: calc(100% - 32px);
+  margin: 0 auto;
+  margin-top: -20px;
+  background: white;
+}
+
+.access h1 {
+  letter-spacing: 3.8;
+  font-size: 36px;
+}
+
+.access p {
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+/* footer */ 
+
+footer {
+  width: calc(100% - 32px);
+  margin: 48px auto 18px;
+  font-size: 12px;
+}
+
+/* @media */ 
+@media (min-width: 800px) {
+
+header .info {
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+header .info input {
+  padding: 32px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+
+header .container {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-left: 12px;
+}
+
+header .container ul {
+  margin-left: 56px;
+}
+
+main .sub-news dl {
+  display: flex;
+}
+
+main .sub-news dl div {
+  margin-right: 56px;
+  width: 100%;
+  height: 60px;
+}
+
+main .sub-news dl div + div {
+  border-left: 1px solid black;
+  padding: 0 18px;
+}
+
+.container .pic {
+  display: flex;
+  height: 600px;
+}
+
+.container .pic img {
+  width: 60%;
+  margin-left: 0;
+}
+
+.container .pic .about {
+  width: 35%;
+  margin: 0 auto;
+  align-self: end;
+}
+
+.container .business {
+  margin-top: 48px;
+}
+
+.container .business .work {
+  display: flex;
+  width: calc(100% - 88px);
+  margin: 0 auto;
+  gap: 58px;
+}
+
+.container .business .work #web {
+  margin-top: 80px;
+}
+
+.company {
+  display: flex;
+}
+
+.company img {
+  width: 50%;
+  height: auto;
+}
+
+.sub-company {
+width: 100%;
+}
+
+.sub-company dl div {
+  margin: 0 auto;
+  width: 100%;
+  display: flex; 
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.sub-company dl dd {
+  padding: 0;
+  width: 80%;
+}
+
+.sub-company #market {
+  align-items: start;
+}
+
+.sub-company #market dd {
+  margin-top: 20px;
+}
+
+
+.access {
+  display: flex;
+  padding: 32px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+}
+
+
+/* @media */ 
