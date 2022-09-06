@@ -229,10 +229,10 @@ main h2 {
   display: flex;
   align-items: center;
   border: 2px solid white;
-  width: 65%;
+  width: 70%;
   margin: 0 auto;
   padding: 30px;
-  gap: 38px;
+  gap: 30px;
 }
 
 .second-skill {
@@ -266,7 +266,7 @@ main h2 {
   margin-bottom: 42px;
 }
 
-#works .ectype a {
+#works a {
   display: block;
   width: 350px;
   margin: 0 auto;
@@ -276,7 +276,7 @@ main h2 {
   margin-top: 28px;
 }
 
-#works .ectype a:hover {
+#works a:hover {
   opacity: 0.5;
 }
 
