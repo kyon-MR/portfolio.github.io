@@ -1,0 +1,356 @@
+/* ------------- common ------------- */
+body {
+  background: #0A1F54;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  /* font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */
+  font-family: cursive;
+  font-size: 18px;
+}
+
+h2 {
+  /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
+  font-family: cursive;
+  font-size: 16px;
+  font-style: italic;
+}
+
+h3 {
+  font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
+  font-family: cursive;
+  font-style: italic;
+}
+
+p {
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+li {
+  list-style: none;
+}
+
+/* ------------- header ------------- */
+header {
+  background: #000327;
+}
+
+.my-name {
+  text-align: center;
+  z-index: 2;
+}
+
+header h2 {
+  padding-top: 8px;
+}
+
+.header-sub {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#menu ul {
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+  top: 80px;
+  text-align: center;
+  z-index: 1;
+  opacity: 0;
+  transform: translateY(-400px);
+  transition: opacity 0.6s, transform 0.6s;
+}
+
+#menu ul.appear {
+  opacity: 1;
+  transform: none;
+}
+
+#menu ul li {
+  padding-bottom: 20px;
+}
+
+#menu ul li a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
+#open i {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#open {
+  padding-top: 4px;
+  display: block;
+  z-index: 1;
+}
+
+#open.hidden {
+  display: none;
+}
+
+#close i {
+  font-size: 32px;
+  cursor: pointer;
+}
+
+#close {
+  display: none;
+}
+
+#close.appear {
+  padding-top: 4px;
+  display: block;
+  z-index: 2;
+}
+
+#modal {
+  opacity: 0;
+  transition: opacity 1.0s;
+}
+
+#modal.appear {
+  opacity: 1;
+  width: 100%;
+  height: 250px;
+  background: #000327;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+/* ------------- main-pic ------------- */
+.main-pic {
+  width: 100%;
+  position: relative;
+}
+
+.main-pic img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+}
+
+.main-pic p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #00ffff;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 8%;
+}
+
+/* ------------- main ------------- */
+.main-sub {
+  padding-bottom: 20px;
+}
+
+main h2 {
+  font-size: 20px;
+  text-decoration: underline;
+  margin: 60px 0 32px 0;
+}
+
+.profile {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#profile p {
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 1.2;
+}
+
+#profile p span:first-child {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+
+#profile p span:last-child {
+  text-decoration: underline;
+}
+
+#profile p a {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 14px;
+  color: #00ffff;
+  text-decoration: underline;
+}
+
+#profile p a:hover {
+  opacity: 0.6;
+}
+
+#skills h3 {
+  font-size: 64px;
+  color: skyblue;
+  line-height: 1.5;
+}
+
+#skills p {
+  line-height: 1.8;
+}
+
+.first-skill,
+.second-skill {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  width: 65%;
+  margin: 0 auto;
+  padding: 30px;
+  gap: 38px;
+}
+
+.second-skill {
+  margin-top: 32px;
+}
+
+#bootstrap {
+  color: gray;
+}
+
+#works {
+  overflow: hidden;
+}
+
+#works img {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.4s, transform 0.4s;
+}
+
+#works img.appear {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 2px solid skyblue;
+  opacity: 1;
+  transform: none;
+}
+
+#works .actual {
+  margin-bottom: 42px;
+}
+
+#works .ectype a {
+  display: block;
+  width: 350px;
+  margin: 0 auto;
+}
+
+#works .ectype a + a {
+  margin-top: 28px;
+}
+
+#works .ectype a:hover {
+  opacity: 0.5;
+}
+
+#contact p {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  text-align: center;
+}
+
+.sns {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  gap: 18px;
+}
+
+.sns i {
+  margin-right: 4px;
+}
+
+.sns a {
+  font-size: 14px;
+  font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
+}
+
+.sns a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#to_top {
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+#to_top.show {
+  opacity: 1;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: white;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+#to_top a {
+  display: block;
+  color: black;
+  padding-top: 5px;
+}
+
+
+/* ------------- footer ------------- */
+footer {
+  background: #030E26;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+footer h2 {
+  font-size: 14px;
+  padding-top: 5px;
+  font-family: cursive;
+}
+
+#capsule {
+  font-size: 22px;
+}
+
+#hospital {
+  font-size: 20px;
+}
