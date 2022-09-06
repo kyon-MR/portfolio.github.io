@@ -1,0 +1,894 @@
+/* ----------- media medium screen----------- */
+@media (min-width: 760px) {
+/* ----------- header ----------- */
+main {
+  overflow: hidden;
+}
+
+.top {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.top h1:first-child {
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  align-self: end;
+  padding-bottom: 18px;
+}
+
+.document {
+  display: none;
+}
+
+.document-media {
+  display: block;
+  background: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+  width: 250px;
+  height: 40px;
+  border: 1px solid rgba(255, 0, 0, 0.5);
+  border-radius: 25px 25px 25px 25px;
+  color: white;
+  margin: 15px 15px 15px 0;
+}
+
+.document-media:hover {
+  opacity: 0.6;
+}
+
+/* ----------- life ----------- */
+.life {
+  height: 520px;
+}
+
+.life-text {
+  padding-top: 100px;
+}
+
+.life-text h3 {
+  font-size: 24px;
+  line-height: 2.0;
+}
+
+/* ----------- info ----------- */
+.info h3 {
+  padding-top: 18px;
+}
+
+.info .btn-info {
+  height: 40px;
+  padding-top: 20px;
+}
+
+.info .btn-info br {
+  display: none;
+}
+
+.student {
+  display: flex;
+  justify-content: center;
+}
+
+.student dt,
+.student dd {
+font-size: 18px;
+}
+
+
+/* ----------- intro ----------- */
+.intro {
+  position: relative;
+  height: 580px;
+}
+
+.intro h2 {
+  width: 100%;
+  font-size: 24px;
+  padding-top: 60px;
+  margin-bottom: -20px;
+}
+
+.intro .bd-left {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 8px;
+}
+
+.intro .bd-right {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 95px;
+  right: 8px;
+}
+
+.intro p {
+  width: 100%;
+}
+
+.intro h2 br {
+  display: none;
+}
+
+.intro .text-0th br:nth-child(odd),
+.intro .text-1st br:nth-child(even),
+.intro .text-2nd br,
+.intro .text-3rd br:nth-child(odd) {
+  display: none;
+}
+
+.about {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #ffcc66;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  position: absolute;
+  top: 1540px;
+  left: 47%;
+}
+
+.about p {
+  font-size: 16px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+/* ----------- isara ----------- */
+.isara {
+  height: 720px;
+}
+
+.isara h2 {
+  font-size: 22px;
+}
+
+.isara .bd-left {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 60px;
+  left: 40px;
+}
+
+.isara .bd-right {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 150px;
+  right: 40px;
+}
+
+.isara h3 br {
+  display: none;
+}
+
+.skills {
+  padding-top: 20px;
+  height: 350px;
+}
+
+.skills h3 {
+  font-size: 18px;
+}
+
+.skill {
+  gap: 32px;
+  padding-top: 24px;
+}
+
+.skill img {
+  width: 70px;
+  height: 70px;
+}
+
+.skill p {
+  font-size: 13px;
+}
+
+.friend img {
+  width: 120px;
+}
+
+.program, .sales, .quote,
+.star, .friend {
+  text-align: center;
+}
+
+
+/* ----------- support ----------- */
+.support {
+  height: 800px;
+}
+
+.support br {
+  display: none;
+}
+
+.support h2 {
+  font-size: 24px;
+}
+
+.support h4 {
+  font-size: 16px;
+  margin-top: -15px;
+}
+
+.step-first, 
+.step-second,
+.step-third {
+  width: 330px;
+  height: 140px;
+  padding: 30px 0 0 0;
+}
+
+.step-second,
+.step-third {
+  margin-top: 20px;
+}
+
+.step-first h3, 
+.step-second h3,
+.step-third h3 {
+  margin-bottom: 20px;
+}
+
+.step-first p:last-child,
+.step-second p:last-child,
+.step-third p:last-child {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.support-text br:nth-child(odd) {
+  display: none;
+}
+
+.support-text p {
+  padding: 10px 0 10px 0;
+  font-size: 18px;
+}
+
+
+/* ----------- support ----------- */
+.learning h3 {
+  font-size: 24px;
+}
+
+.learning br {
+  display: none;
+}
+
+.learning-pic {
+  width: 90%;
+  padding-bottom: 32px;
+  justify-content: center;
+  gap: 24px;
+}
+
+.learning h3:last-child {
+  font-size: 8px;
+  padding-bottom: 20px;
+}
+
+
+/* ----------- support ----------- */
+.school h4 br {
+  display: none;
+}
+
+.school > h3{
+  font-size: 24px;
+}
+
+.school .bd-left {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+}
+
+.school .bd-right {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.first-merit,
+.second-merit,
+.third-merit {
+  width: 70%;
+}
+
+.first-merit img,
+.second-merit img,
+.third-merit img {
+  width: 300px;
+  height: 180px;
+}
+
+.first-merit h3,
+.second-merit h3,
+.third-merit h3 {
+  font-size: 16px;
+}
+
+.first-merit p,
+.second-merit p,
+.third-merit p {
+  line-height: 1.8;
+}
+
+.work h3 {
+  font-size: 24px;
+  padding: 20px 0 25px 0;
+}
+
+.work {
+  padding: 20px 0 45px 0;
+}
+
+.work p {
+  font-size: 14px;
+  line-height: 2.0;
+}
+
+.work p br:nth-child(even) {
+  display: block;
+}
+
+.school-text {
+  margin-top: 32px;
+}
+
+.school-text p {
+  font-size: 12px;
+}
+
+.school-text br {
+  display: none;
+}
+
+
+/* ----------- founding ----------- */
+.founding h3 {
+  font-size: 24px;
+}
+
+.founding > p {
+  font-size: 14px;
+  padding-bottom: 100px;
+}
+
+.founding > p br {
+  display: none;
+}
+
+.founding img {
+  width: 200px;
+  height: 200px;
+}
+
+.representative,
+.owner,
+.engineer,
+.engineer-more {
+  padding: 40px 40px;
+}
+
+.owner,
+.engineer,
+.engineer-more {
+  margin-top: 200px;
+}
+
+.representative p,
+.owner p,
+.engineer p,
+.engineer-more p {
+  font-size: 14px;
+}
+
+
+.representative img {
+  position: absolute;
+  top: -170px;
+  left: 39%;
+  margin: auto;
+}
+
+.owner img {
+  position: absolute;
+  top: 260px;
+  left: 39%;
+  margin: auto;
+}
+
+.engineer img {
+  position: absolute;
+  top: -170px;
+  left: 39%;
+  margin: auto;
+}
+
+.engineer-more img {
+  position: absolute;
+  top: 240px;
+  left: 39%;
+  margin: auto;
+}
+
+
+/* ----------- contents ----------- */
+.contents .contents-faq {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 50%;
+  background: white;
+}
+
+.contents-faq p {
+  font-size: 20px;
+  padding-top: 28px;
+}
+
+.contents h2 {
+  font-size: 18px;
+  margin-top: 22px;
+  margin-bottom: 40px;
+}
+
+.contents .bd-left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 110px;
+  left: 80px;
+}
+
+.contents .bd-right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 160px;
+  right: 80px;
+}
+
+
+/* ----------- contents-text ----------- */
+.contents-text h3 {
+  font-size: 24px;
+}
+
+.contents-text h4 {
+  font-size: 14px;
+}
+
+.contents-text .delta {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: -25px;
+  left: 47%;
+}
+
+.contents-text > p br {
+  display: none;
+}
+
+.contents-text img {
+  width: 212px;
+  height: 225px;
+}
+
+.kredo, 
+.sapeur, 
+.beauty {
+  width: 80%;
+  margin: 0 auto;
+} 
+
+.kredo p, 
+.sapeur p, 
+.beauty p {
+  width: 60%;
+  padding-top: 30px;
+}
+
+.contents-text span {
+  font-size: 15px;
+}
+
+
+/* ----------- study ----------- */
+.study {
+  position: relative;
+  height: 900px;
+}
+
+.study h3 {
+  font-size: 24px;
+}
+
+.study h4 {
+  font-size: 14px;
+}
+
+.travel {
+  display: flex;
+}
+
+.forward, .stay {
+  width: 270px;
+}
+
+.forward p,
+.stay p {
+  padding: 12px 0 12px 0;
+  font-size: 14px;
+  line-height: 1.5;
+} 
+
+.forward p br {
+  display: block;
+}
+
+
+.stay {
+  margin-left: 30px;
+  height: 309px;
+}
+
+
+.study-text {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 40px 0 40px 0;
+}
+
+
+/* ----------- lesson ----------- */
+.lesson h3 {
+  font-size: 24px;
+}
+
+.lesson i {
+  font-size: 20px;
+}
+
+.lesson > img {
+  display: block;
+  width: 90%;
+  margin: 20px auto 32px;
+}
+
+.lesson .consul {
+  display: none;
+}
+
+.lesson .media-consul img {
+  width: 98px;
+  height: 91px;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+.media-consul {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  padding: 32px 20px 40px 66px;
+  margin: 0 auto;
+  background: #FDF5E0;
+  border-radius: 8px 8px 8px 8px;
+}
+
+
+.media-consul h3 {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+.media-consul p {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-top: 14px;
+  padding-left: 38px;
+  padding-right: 20px;
+}
+
+.media-consul p span {
+  font-weight: normal;
+}
+
+.media-box {
+width: 556px;
+height: 25px;
+margin: 0 auto;
+border-left: 2px solid #EBB94E;
+}
+
+#media-box {
+width: 556px;
+height: 25px;
+margin: 0 auto;
+border-top: 2px solid #EBB94E;
+border-right: 2px solid #EBB94E;
+}
+
+.media-boxes {
+width: 556px;
+height: 25px;
+margin: 0 auto;
+border-right: 2px solid #EBB94E;
+}
+
+#media-boxes {
+width: 556px;
+height: 25px;
+margin: 0 auto;
+border-top: 2px solid #EBB94E;
+border-left: 2px solid #EBB94E;
+}
+
+
+/* ----------- lesson ----------- */
+.country h3 {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.country ul li {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.country h4 {
+  margin-top: 10px;
+}
+
+
+/* ----------- benefits ----------- */
+.benefits h3 {
+  font-size: 24px;
+}
+
+.benefits i {
+  font-size: 18px;
+}
+
+.benefits #cost {
+  font-size: 14px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.benefits #cost br {
+  display: none;
+}
+
+.benefits .text h3 br {
+  display: none;
+}
+
+.first-benefit,
+.second-benefit,
+.third-benefit {
+  display: none;
+}
+
+.benefit {
+  margin-bottom: 20px;
+}
+
+.media-benefit {
+  display: block;
+}
+
+.media-first, 
+.media-second,
+.media-third {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  background: white;
+  border-radius: 50%;
+}
+
+.media-first h3, 
+.media-second h3,
+.media-third h3 {
+  color: #EBB94E;
+  padding-top: 50px;
+}
+
+.media-first p, 
+.media-second p,
+.media-third p {
+  width: 85%;
+  margin: 0 auto;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.media-second,
+.media-third {
+  margin-top: 20px;
+}
+
+.media-third {
+  margin-bottom: 25px;
+}
+
+
+/* ----------- volunteer ----------- */
+.volunteer h3 {
+  font-size: 24px;
+}
+
+.volunteer h3 br {
+  display: none;
+}
+
+.volunteer > p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.volunteer p:first-child br:nth-child(odd) {
+  display: none;
+}
+
+.volunteer h2 {
+  font-size: 24px;
+}
+
+.volunteer h2 br {
+  display: none;
+}
+
+.volunteer .bd-left {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 195px;
+  left: 30px;
+}
+
+.volunteer .bd-right {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top: 250px;
+  right: 30px;
+}
+
+#volunteer br:nth-child(even) {
+  display: none;
+}
+
+/* ----------- president ----------- */
+.president h3 {
+  font-size: 24px;
+}
+
+.president h4 {
+ margin-bottom: 32px;
+}
+
+.president h4 br {
+  display: none;
+}
+
+.president p {
+  width: 90%;
+  margin-top: 40px;
+  margin-bottom: 64px;
+}
+
+
+/* ----------- contact ----------- */
+.contact i {
+  font-size: 30px;
+}
+
+.contact h3 {
+  padding: 66px 0 40px 0;
+  font-size: 24px;
+}
+
+.contact h4 {
+  font-size: 14px;
+  padding-bottom: 32px;
+}
+
+.contact input,
+.contact textarea {
+  width: 75%;
+  border-radius: 8px 8px 8px 8px;
+}
+
+.contact input {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+.contact textarea {
+  padding-top: 8px;
+  margin-top: 32px;
+}
+
+.contact button {
+  width: 75%;
+}
+
+
+/* ----------- faq ----------- */
+
+.faq > h3 i {
+  font-size: 30px;
+}
+
+.faq h3 {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+
+.faq dl dt {
+  width: 85%;
+  padding: 18px 14px 18px 14px;
+}
+
+
+.faq dt::after {
+  position: absolute;
+  top: 19px;
+  right: 10px;
+}
+
+
+/* ----------- footer ----------- */
+footer {
+  padding: 40px 0 14px 0;
+}
+
+
+
+/* ----------- triangle ----------- */
+#triangle.show {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: #ECECEC;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  animation: 0.8s fadeIn;
+}
+
+#triangle a {
+  font-size: 24px;
+}
+
+
+}
