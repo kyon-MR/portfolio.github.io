@@ -14,7 +14,7 @@ body {
 h1 {
   /* font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */
   font-family: cursive;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 h2 {
@@ -60,6 +60,7 @@ header {
 }
 
 header h2 {
+  font-size: 12px;
   padding-top: 8px;
 }
 
@@ -97,7 +98,7 @@ header h2 {
 }
 
 #open i {
-  font-size: 32px;
+  font-size: 34px;
   cursor: pointer;
 }
 
@@ -282,6 +283,7 @@ main h2 {
 
 #contact p {
   width: 90%;
+  font-size: 12px;
   margin: 0 auto;
   padding-bottom: 16px;
   text-align: center;
