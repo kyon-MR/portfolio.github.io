@@ -267,14 +267,19 @@ main h2 {
   margin-bottom: 42px;
 }
 
+#works p {
+  padding: 10px 0 50px 0;
+  text-align: center;
+}
+
+#works .ectype a + a {
+  margin-top: 32px;
+}
+
 #works a {
   display: block;
   width: 350px;
   margin: 0 auto;
-}
-
-#works .ectype a + a {
-  margin-top: 28px;
 }
 
 #works a:hover {

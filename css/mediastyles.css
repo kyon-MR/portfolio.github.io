@@ -129,7 +129,12 @@
     padding: 10px 5px;
   } 
 
-  .ectype {
+  #works img {
+    width: 350px;
+    height: 350px;
+  }
+
+  #works .ectype {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -139,13 +144,12 @@
     gap: 20px;
   }
 
-  #works img {
-    width: 350px;
-    height: 350px;
-  }
-
   #works .ectype a + a {
     margin-top: 0;
+  }
+
+  #works .actual p br:nth-child(1) {
+    display: none;
   }
 
   .sns {
@@ -288,7 +292,7 @@
     padding: 20px 15px;
   } 
 
-  .ectype {
+  #works .ectype {
     max-width: 1180px;
   }
 
