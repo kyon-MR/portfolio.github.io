@@ -321,6 +321,7 @@
   #works .logo,
   #works .banner,
   #works .printed-matter {
+    width: 70%;
     max-width: 1440px;
   }
 

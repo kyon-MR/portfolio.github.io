@@ -53,6 +53,13 @@ li {
   list-style: none;
 }
 
+#profile,
+#skills,
+#works,
+#contact {
+  padding-bottom: 120px;
+}
+
 /* ------------- header ------------- */
 header {
   background: #000327;
@@ -384,6 +391,10 @@ main h2 {
 #works .main-printed img  {
   object-fit:contain;
   height: auto;
+}
+
+#works .printed-matter {
+  padding-bottom: 120px;
 }
 
 .design a {
