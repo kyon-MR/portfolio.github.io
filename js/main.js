@@ -73,4 +73,14 @@
     imgObserver.observe(target);
   });
 
+  const pcModal = document.getElementById('pc-modal');
+  const designs = document.querySelectorAll('.design a');
+  
+  designs.forEach(design => {
+    design.addEventListener('click', () => {
+    design.classList.toggle('scale');
+    pcModal.classList.toggle('scale');
+  });
+});
+
 }
