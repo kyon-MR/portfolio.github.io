@@ -1,5 +1,5 @@
 /* ------------- media medium screen ------------- */
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   h1 {
     font-size: 20px;
   }
@@ -51,17 +51,13 @@
   /* ------------- mainphoto ------------- */
   .main-pic img {
     width: 100%;
-    height: 450px;
   }
 
   .main-pic p {
+    font-size: 18px;
     position: absolute;
     top: 15%;
-    left: 2%;
-  }
-
-  .main-pic p br {
-    display: none;
+    left: 8%;
   }
 
   /* ------------- main ------------- */
@@ -69,6 +65,7 @@
     font-size: 26px;
   }
   
+  /* ------------- profile ------------- */
   #profile img {
     width: 250px;
     height: 250px;
@@ -100,6 +97,7 @@
     text-align: left;
   }
 
+  /* ------------- skills ------------- */
   .skill {
     display: flex;
     width: 90%;
@@ -108,12 +106,27 @@
   }
 
   .first-skill,
-  .second-skill {
+  .second-skill,
+  .third-skill {
     display: block;
   }
 
-  .second-skill {
+  .second-skill,
+  .third-skill {
     margin-top: 0;
+  }
+
+  .third-skill h3 {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    gap: 5px;
+  }
+
+  .third-skill img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
   }
 
   #skills h3 {
@@ -121,14 +134,11 @@
     padding: 20px 0;
   }
 
-  .first-skill h3 {
-    letter-spacing: 5px;
-  }
-
   .skill p {
     padding: 10px 5px;
   } 
 
+  /* ------------- works ------------- */
   #works img {
     width: 350px;
     height: 350px;
@@ -138,8 +148,8 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    width: 95%;
-    max-width: 800px;
+    width: calc(100% - 64px);
+    max-width: 850px;
     margin: 0 auto;
     gap: 20px;
   }
@@ -152,6 +162,18 @@
     display: none;
   }
 
+  #works .main-banner,
+  #works .main-printed {
+    width: calc(100% - 64px);
+    max-width: 850px;
+  }
+
+  #works .main-printed a  {
+    width: 45%;
+    margin: 0 auto;
+  }
+
+  /* ------------- contact ------------- */
   .sns {
     margin: 30px 0;
     gap: 48px;
@@ -229,19 +251,16 @@
   /* ------------- mainphoto ------------- */
   .main-pic img {
     width: 100%;
-    height: 550px;
+    height: 400px;
   }
 
   .main-pic p {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 8%;
-    font-size: 22px;
+    font-size: 24px;
   }
 
-  .main-pic p br {
-    display: none;
-  }
 
   /* ------------- main ------------- */
   main h2 {
@@ -255,6 +274,7 @@
     padding-bottom: 20px;
   } 
   
+   /* ------------- profile ------------- */
   #profile img {
     width: 300px;
     height: 300px;
@@ -277,8 +297,9 @@
     font-size: 18px;
   }
 
+   /* ------------- skills ------------- */
   .skill {
-    width: 80%;
+    width: 95%;
     gap: 30px;
   }
 
@@ -292,10 +313,55 @@
     padding: 20px 15px;
   } 
 
+   /* ------------- works ------------- */
   #works .ectype {
     max-width: 1180px;
   }
 
+  #works .logo,
+  #works .banner,
+  #works .printed-matter {
+    max-width: 1440px;
+  }
+
+  #works .main-logo a  {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .design {
+    position: relative;
+  }
+
+  .design a {
+    pointer-events: visible;
+    cursor: zoom-in;
+  }
+
+  .design a.scale {
+    text-align: center;
+    transition: transform 0.3s;
+    transform: scale(1.7, 1.7);
+    cursor: zoom-out;
+    z-index: 2;
+  }
+
+  #pc-modal {
+    opacity: 0;
+    transition: opacity 1.0s;
+  }
+  
+  #pc-modal.scale {
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background: #000327;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+  }
+
+   /* ------------- contact ------------- */
   #contact p {
     width: 100%;
     text-align: center;

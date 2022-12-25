@@ -20,7 +20,7 @@ h1 {
 h2 {
   /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
   font-family: cursive;
-  font-size: 16px;
+  font-size: 30px;
   font-style: italic;
 }
 
@@ -28,6 +28,10 @@ h3 {
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
   font-size: 14px;
   font-style: italic;
+}
+
+h4 {
+  font-size: 16px;
 }
 
 a {
@@ -150,13 +154,13 @@ header h2 {
 
 .main-pic img {
   width: 100%;
-  height: 350px;
+  height: 300px;
   object-fit: cover;
 }
 
 .main-pic p {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  color: #00ffff;
+  color: #fff100;
   font-weight: bold;
   position: absolute;
   top: 10%;
@@ -169,11 +173,11 @@ header h2 {
 }
 
 main h2 {
-  font-size: 20px;
   text-decoration: underline;
   margin: 60px 0 32px 0;
 }
 
+/* ------------- profile ------------- */
 .profile {
   width: 100%;
   margin: 0 auto;
@@ -215,18 +219,34 @@ main h2 {
   opacity: 0.6;
 }
 
+/* ------------- skills ------------- */
 #skills h3 {
   font-size: 64px;
-  color: skyblue;
   line-height: 1.5;
+}
+
+#skills h4 {
+  font-size: 16px;
+  text-decoration: underline double #00ffff;
+  letter-spacing: 1.5px;
+  padding-bottom: 30px;
 }
 
 #skills p {
   line-height: 1.8;
 }
 
+.first-skill h3 {
+  color: #61c1be;
+}
+
+.second-skill h3 {
+  color: #fff100;
+}
+
 .first-skill,
-.second-skill {
+.second-skill,
+.third-skill {
   display: flex;
   align-items: center;
   border: 2px solid white;
@@ -236,14 +256,20 @@ main h2 {
   gap: 30px;
 }
 
-.second-skill {
+.second-skill,
+.third-skill {
   margin-top: 32px;
 }
 
-#bootstrap {
-  color: gray;
+.third-skill img {
+  display: block;
+  width: 75px;
+  height: 75px;
+  margin: 0 -5px;
+  padding: 5px 0 10px 0;
 }
 
+/* ------------- works ------------- */
 #works {
   overflow: hidden;
 }
@@ -267,8 +293,40 @@ main h2 {
   margin-bottom: 42px;
 }
 
+#works h4 {
+  font-size: 18px;
+  text-decoration: underline double #00bfff;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  letter-spacing: 1.5px;
+}
+
+#works .actual h4 {
+  padding-top: 60px;
+  padding-bottom: 35px;
+}
+
+#works h5 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #00bfff;
+  padding: 10px 0;
+  width: 140px;
+  margin: 30px auto 40px;
+  border: 2px solid #00bfff;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#works .banner h5,
+#works .printed-matter h5 {
+  margin: 80px auto 40px;
+}
+
 #works p {
-  padding: 10px 0 50px 0;
+  font-size: 24px;
+  letter-spacing: 2.0px;
+  padding: 10px 0 40px 0;
   text-align: center;
 }
 
@@ -282,13 +340,60 @@ main h2 {
   margin: 0 auto;
 }
 
-#works a:hover {
+#works .actual a:hover {
   opacity: 0.5;
 }
 
+#works .logo,
+#works .banner,
+#works .printed-matter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#works .main-logo,
+#works .main-banner,
+#works .main-printed {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: calc(100% - 24px);
+  margin: 0 auto;
+  max-width: 500px;
+  gap: 20px;
+  padding-bottom: 30px;
+}
+
+#works .main-logo a  {
+  width: 45%;
+  margin: 0 auto;
+}
+
+#works .main-logo img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+#works .main-logo .online {
+  object-fit: contain;
+  height: auto;
+}
+
+#works .main-banner img,
+#works .main-printed img  {
+  object-fit:contain;
+  height: auto;
+}
+
+.design a {
+  pointer-events: none;
+}
+
+/* ------------- contact ------------- */
 #contact p {
   width: 90%;
-  font-size: 12px;
+  font-size: 16px;
   margin: 0 auto;
   padding-bottom: 16px;
   text-align: center;
@@ -337,7 +442,6 @@ main h2 {
   color: black;
   padding-top: 5px;
 }
-
 
 /* ------------- footer ------------- */
 footer {
