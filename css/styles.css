@@ -296,10 +296,6 @@ main h2 {
   transform: none;
 }
 
-#works .actual {
-  margin-bottom: 42px;
-}
-
 #works h4 {
   font-size: 18px;
   text-decoration: underline double #00bfff;
@@ -320,10 +316,15 @@ main h2 {
   background-color: #00bfff;
   padding: 10px 0;
   width: 140px;
-  margin: 30px auto 40px;
+  margin: 40px auto 40px;
   border: 2px solid #00bfff;
   border-radius: 10px 10px 10px 10px;
 }
+
+#works h6 {
+  letter-spacing: 1.4px;
+  padding-bottom: 30px;
+} 
 
 #works .banner h5,
 #works .printed-matter h5 {
@@ -367,7 +368,7 @@ main h2 {
   width: calc(100% - 24px);
   margin: 0 auto;
   max-width: 500px;
-  gap: 20px;
+  gap: 30px;
   padding-bottom: 30px;
 }
 
