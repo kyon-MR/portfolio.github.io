@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/mediastyles.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
   <title>My Portfolio</title>
 </head>
 <body>
@@ -35,8 +38,21 @@
 
   <div id="target"></div>
 
-  <div class="main-pic" id="mr">
-    <img src="img/digitalimage.jpg" alt="メイン画像です">
+  <div class="main-pic swiper" id="mr">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img class="box" src="img/digitalimage.jpg" alt="メイン画像1です">
+      </div>
+      <div class="swiper-slide">
+        <img class="box" src="img/digitalimage2.jpg" alt="メイン画像2です">
+      </div>
+      <div class="swiper-slide">
+        <img class="box" src="img/digitalimage3.jpg" alt="メイン画像3です">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev" style="color: lime"></div>
+    <div class="swiper-button-next" style="color: lime"></div>
     <p>
       MR(Medical Representative)とは、<br>製薬企業などで医療従事者に対して<br>情報提供活動を行う営業マンです。
     </p>
@@ -69,11 +85,10 @@
           <div class="first-skill">
             <h3>
               <i class="bi bi-filetype-html"></i>
-              <!-- <i class="bi bi-bootstrap"></i> -->
               <i class="bi bi-filetype-css"></i>
             </h3>
             <p>
-              2022年6月よりHTML及びCSSの学習を始めました。HTML/CSSをベースにWebサイトを制作いたします。ご要望や修正などをお伺いしながら対応させて頂き、お客様の思い描くWebサイトが制作できるよう努めさせて頂きます。レスポンシブデザインも対応可能ですので、お気兼ねなくお申し付け下さい。
+              HTML/CSSをベースにWebサイトを制作いたします。ご要望や修正などをお伺いしながら対応させて頂き、お客様の思い描くWebサイトが制作できるよう努めさせて頂きます。<br><br> レスポンシブデザインも対応可能ですので、お気兼ねなくお申し付け下さい。
             </p>
           </div>
           <div class="second-skill">
@@ -81,14 +96,15 @@
               <i class="bi bi-filetype-js"></i>
               <i class="bi bi-bootstrap" style="color: #8a2be2;"></i>
             </h3>
-            <p>2022年7月よりJavaScriptの学習を始めました。現在は画像のスライドショー、ハンバーガーメニューやIntersection Observer APIなど動的なデザインも対応可能です。また、Bootstrap 5も必要に応じて使用し、より良いWebサイト制作をさせて頂きます。Webサイトに華やかさやちょっとした遊び心を付け加えたいなど、ご要望に応じて(追加のご要望も含めて)対応させて頂きますので、何なりとお申し付け下さい。</p>
+            <p>画像のスライドショー、ハンバーガーメニューやIntersection Observer APIなど動的なデザインも対応可能です。<br><br>jQueryやBootstrap 5も使用可能で、トップの背景画像やスムーススクロールはjQueryで制作しております。<br><br>Webサイトに華やかさやちょっとした遊び心を付け加えたいなど、ご要望に応じて(追加のご要望も含めて)対応させて頂きますので、何なりとお申し付け下さい。</p>
           </div>
           <div class="third-skill">
             <h3>
               <img src="img/Photoshop-icon.png" alt="Photoshopのアイコン">
               <img src="img/illustrator-icon.png" alt="illustratorのアイコン">
+              <img src="img/figma.png" alt="Figmaのアイコン">
             </h3>
-            <p>プログラミングに加え、Webデザインの制作も可能です。ロゴ、バナーやチラシ等の印刷物の制作を経験しております。特に医療業界に特化した作品に注力しておりますが、様々な案件の制作に携わりましたので、幅広いジャンルでの制作が可能です。WebデザインからコーディングによるWebサイト制作まで一貫して作業が可能ですので、ご要望に応じて柔軟に対応させて頂きます。</p>
+            <p>プログラミングに加え、Webデザインの制作も可能です。<br><br>ロゴ、バナーやチラシ等の印刷物、Youtubeのヘッダー画像やサムネイルの制作を経験しております。<br><br>特に医療業界に特化した作品に注力しておりますが、様々な案件の制作に携わりましたので、幅広いジャンルでの制作が可能です。<br><br>また、Figmaでのデザインラフ案の制作経験もございます。<br><br>WebデザインからコーディングによるWebサイト制作まで一貫して作業が可能ですので、ご要望に応じて柔軟に対応させて頂きます。</p>
           </div>
         </div>
       </div>
@@ -112,21 +128,23 @@
                 <a><img src="img/logo/burnin-clinic2.png" alt="BURNIN CLINIC"></a>
                 <a><img src="img/logo/burnin-clinic3.png" alt="BURNIN CLINIC"></a>
                 <a><img src="img/logo/online.jpg" alt="オンライン商社" class="online"></a>
-                <a><img src="img/logo/online4.jpg" alt="オンライン商社" class="online"></a>
-                <a><img src="img/logo/online5.jpg" alt="オンライン商社" class="online"></a>
+                <a><img src="img/logo/online2.jpg" alt="オンライン商社" class="online"></a>
+                <a><img src="img/logo/online3.jpg" alt="オンライン商社" class="online"></a>
               </div>
             </div>
             <div class="banner">
               <h5>バナー</h5>
               <h6>制作時間 : 平均約3~4時間/件で制作しております</h6>
               <div class="main-banner">
-                <a><img src="img/banner/machikon.jpg" alt="街コン"></a>
-                <a><img src="img/banner/ecocute.jpg" alt="エコキュート"></a>
-                <a><img src="img/youtube/ゆっくりスピリチュアル系YouTubeチャンネル(アイコン).jpg" alt="ゆっくりスピリチュアル系"></a>
-                <a><img src="img/youtube/ゆっくりスピリチュアル系YouTubeチャンネル(アイコン)②.jpg" alt="ゆっくりスピリチュアル系②"></a>
+                <a><img src="img/banner/baby-present.jpg" alt="知育玩具プレゼントキャンペーン" id="child"></a>
+                <a><img src="img/banner/Amazon商品バナー.jpg" alt="Amazon商品バナー"></a>
                 <a><img src="img/banner/Rakutenランキングバナー.jpg" alt="楽天ランキング"></a>
                 <a><img src="img/banner/Yahooランキングバナー.jpg" alt="Yahooランキング"></a>
-                <a><img src="img/banner/baby-present.jpg" alt="知育玩具プレゼントキャンペーン"></a>
+                <a><img src="img/youtube/ゆっくりスピリチュアル系YouTubeチャンネル(アイコン).jpg" alt="ゆっくりスピリチュアル系"></a>
+                <a><img src="img/youtube/ゆっくりスピリチュアル系YouTubeチャンネル(アイコン)②.jpg" alt="ゆっくりスピリチュアル系②"></a>
+                <a><img src="img/banner/machikon.jpg" alt="街コン"></a>
+                <a><img src="img/banner/ecocute.jpg" alt="エコキュート" id="child2"></a>
+                <a><img src="img/banner/LINEプログラムバナー.jpg" alt="LINEプログラムバナー"></a>
               </div>
             </div>
             <div class="printed-matter">
