@@ -1,7 +1,29 @@
 'use strict';
 
 {
-  /* ----------- Humburger Menu ------------*/
+  /* ----------- jQuery ------------ */
+  $(function() {
+    const swiper = new Swiper(".swiper", {
+
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    });
+
+    $("li a").click(function() {
+      let href = $(this).attr("href");
+      let pos = $(href).offset().top;
+      $("body, html").animate({scrollTop: pos}, 500);
+      return false;
+    });
+  });
+
+  /* ----------- Humburger Menu ------------ */
   const open = document.getElementById('open');
   const modal = document.getElementById('modal');
   const close = document.getElementById('close');
