@@ -88,7 +88,7 @@ header h2 {
   position: absolute;
   top: 80px;
   text-align: center;
-  z-index: 1;
+  z-index: 4;
   opacity: 0;
   transform: translateY(-400px);
   transition: opacity 0.6s, transform 0.6s;
@@ -135,7 +135,7 @@ header h2 {
 #close.appear {
   padding-top: 4px;
   display: block;
-  z-index: 2;
+  z-index: 4;
 }
 
 #modal {
@@ -150,7 +150,7 @@ header h2 {
   background: #000327;
   position: absolute;
   top: 0;
-  z-index: 1;
+  z-index: 3;
 }
 
 /* ------------- main-pic ------------- */
@@ -172,6 +172,7 @@ header h2 {
   position: absolute;
   top: 10%;
   left: 8%;
+  z-index:2;
 }
 
 /* ------------- main ------------- */
@@ -379,7 +380,7 @@ main h2 {
 
 #works .main-logo img {
   width: 100%;
-  height: 150px;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -392,6 +393,16 @@ main h2 {
 #works .main-printed img  {
   object-fit:contain;
   height: auto;
+}
+
+#works .main-banner #child {
+  object-fit: fill;
+  height: 525px;
+}
+
+#works .main-banner #child2 {
+  object-fit: fill;
+  height: 155px;
 }
 
 #works .printed-matter {

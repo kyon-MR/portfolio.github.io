@@ -318,16 +318,33 @@
     max-width: 1180px;
   }
 
-  #works .logo,
+  #works .logo {
+    width: 100%;
+    max-width: 1440px;
+  }
+
   #works .banner,
   #works .printed-matter {
     width: 70%;
     max-width: 1440px;
   }
 
+  #works .main-logo {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 900px;
+  gap: 20px;
+}
+
   #works .main-logo a  {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
+  }
+
+  #works .main-logo img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
   }
 
   .design {
