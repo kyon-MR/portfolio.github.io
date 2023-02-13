@@ -353,10 +353,13 @@
 
   .design a {
     pointer-events: visible;
+  }
+
+  .design .main-logo a {
     cursor: zoom-in;
   }
 
-  .design a.scale {
+  .design .main-logo a.scale {
     text-align: center;
     transition: transform 0.3s;
     transform: scale(1.7, 1.7);

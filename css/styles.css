@@ -349,8 +349,12 @@ main h2 {
   margin: 0 auto;
 }
 
-#works .actual a:hover {
+#works a:hover {
   opacity: 0.5;
+}
+
+#works .main-logo a:hover {
+  opacity: 1;
 }
 
 #works .logo,
@@ -411,6 +415,10 @@ main h2 {
 
 .design a {
   pointer-events: none;
+}
+
+#works .ectype img {
+  object-position: center;
 }
 
 /* ------------- contact ------------- */

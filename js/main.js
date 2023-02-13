@@ -98,7 +98,7 @@
   });
 
   const pcModal = document.getElementById('pc-modal');
-  const designs = document.querySelectorAll('.design a');
+  const designs = document.querySelectorAll('.design .main-logo a');
   
   designs.forEach(design => {
     design.addEventListener('click', () => {
