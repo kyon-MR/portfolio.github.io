@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/mediastyles.css">
+  <link rel="stylesheet" href="css/mediastyles-sp.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+  <title>勉強習慣専門の家庭教師</title>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="./images/logo-header.jpg" alt="ロゴ">
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a href="#service">サービス</a></li>
+        <li><a href="#customer-voice">お客さまの声</a></li>
+        <li><a href="#price">料金</a></li>
+        <li><a href="#faq">よくある質問</a></li>
+        <li><a href="#flow">開始までの流れ</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+        <li><a href="#" id="line">公式LINE</a></li>
+      </ul>
+    </nav>
+
+    <div id="sp-menu">
+      <i class='bx bx-menu'></i>
+    </div>
+
+    <div id="modal"></div>
+
+    <div id="sp-close">
+      <i class='bx bx-window-close' ></i>
+    </div>
+
+  </header>
+
+  <section class="hero">
+    <div class="main-message">
+      <h3>勉強習慣専門の家庭教師</h3>
+      <h1>
+        毎日<span>15</span>分×<span>66</span>日で
+      </h1>
+      <h2>「勉強したくない」を<br>「勉強したい」に</h2>
+    </div>
+    <div class="sub-message">
+      <p id="students">小学生・中学生・高校生<span> 対象</span></p>
+      <h5>＼ 絶賛<span id="seven">7</span><span>日間</span>の無料体験授業実施中!! ／</h5>
+    </div>
+    <div class="btn">
+      <button onclick="location.href='#contact'">
+        <p>無料カウンセリング</p>
+      </button>
+      <a href="#">公式LINE</a>
+    </div>
+  </section>
+
+  <section class="worry">
+    <div class="decoration02"></div>
+    <div class="container">
+      <h1><span>こんなお悩みを</span><span>お持ちじゃありませんか？</span></h1>
+      <div class="info">
+        <div class="desc01">
+          <img src="./images/worry.jpg" alt="不安な画像">
+          <h3>勉強しなきゃだけどしたくない<br>勉強しようとすると頭が痛くなる<br>勉強のストレスで泣きたい…<br>どうしてもやる気が出ない</h3>
+        </div>
+        <div class="desc02">
+          <img src="./images/worry01.jpg" alt="怒られている画像">
+          <h3>親に勉強しろと怒られる<br>先生に勉強しろと怒られる<br>勉強したくなくてしょうがない</h3>
+        </div>
+      </div>
+      <h1>その気持ち、痛いほどわかります</h1>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="decoration03"></div>
+    <div class="triangle"></div>
+
+    <div class="container">
+      <h1><span>私たちが</span><span>その悩み、解決して見せます！！</span></h1>
+      <h2>ABOUT</h2>
+      <h3>秀桜会とは</h3>
+
+      <div class="info">
+        <img src="./images/about.jpg" alt="ABOUセクション画像">
+        <div class="desc">
+          <p>秀桜会は、<br><span>勉強が好きでない</span>中高生のみなさんでも<br>確実に勉強習慣を身につけることができる<br>家庭教師サービスです。</p>
+          <div class="reason">
+            <span>＜ナゼ66日間か？＞</span>
+            <p>
+            ロンドン大学の2009年の論文によると習慣化に必要な日数は平均66日であることがわかっています。<br>Phillippa Lally et al., How are habits formed: Modelling habit formation in the real world., Eur J Soc Psychol., 2009
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile">
+    <div class="decoration"></div>
+
+    <div class="container">
+      <h2>PROFILE</h2>
+      <h3>プロフィール</h3>
+
+      <div class="info">
+        <img src="./images/message_img.jpg" alt="プロフィール画像" id="pc-profile">
+        <img src="./images/message_img_sp.jpg" alt="SPプロフィール画像" id="sp-profile">
+        <div class="desc">
+          <p>
+            申し遅れました。<br>
+            勉強習慣専門の家庭教師、秀桜会の吉田と申します。<br>私はこれまで家庭教師や塾講師として多くの生徒を教えてきました。<br><br>その中で、「どうしても勉強のやる気が出ないんです」という中高生の悩みをよく耳にしました。<br><br>部活が忙しい、ゲームがしたい、Youtubeも見たい…そんな中で、好きでもない勉強をするなんてやる気を出す方が難しいですよね。。<br><br>
+            でも、秀桜会なら、そんな君でも勉強習慣を身につけ、<br><br><span>【勉強ってそんなに辛いものじゃないかも】</span><br><br>
+            って思えるようにしてみせます！<br>そんなの無理に決まってる？勉強が辛くないわけがない？そう思ったあなたはぜひこの先のページも読んでみてください。<br>秀桜会が君の最後の希望になってみせます。
+          </p>
+          <p>
+            ＜略歴＞<br>慶應義塾大学理工学部/理工学研究科(理論物理学)卒<br>大学入学後、家庭教師として指導を開始し担当生徒の成績を大きく向上させる。実績を買われ指導を担当していた家庭教師会社の運営に参画。売上を3倍に増加。大学院では地域密着型の塾にて集団指導と個別指導の両方を担当。大学院卒業後、ITエンジニアとして働いた後、教育の面白さ/奥深さを忘れられず独立。現在に至ります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="service">
+    <div class="decoration02"></div>
+    <div class="overview">
+      <h2>SERVICE</h2>
+      <h3>サービス概要</h3>
+      <p>毎日15分×66日間で“自主的に勉強する習慣”を確実に身につけることが可能です！</p>
+    </div>
+
+    <div class="planning">
+      <h2>①66日間のプランニング</h2>
+      <p>専門カウンセラーが、達成したい目標を一緒に検討し、それを踏まえて無理なく着実に進められる計画を作成してくれるから、挫折せずに成功体験を積むことが可能です。</p>
+      <div class="schedule">
+        <img src="./images/66days.jpg" alt="66日間の勉強習慣">
+        <img src="./images/schedule.jpg" alt="１週間のスケジュール">
+      </div>
+    </div>
+
+    <div class="coaching">
+      <h2>②毎日15分のコーチング</h2>
+      <p id="coach">コーチによる日々の声掛けで、君のやる気を引き出し、勉強モードに切り替えます。</p>
+      <div class="check">
+        <div class="content">
+          <h4>進捗確認(5分)</h4>
+          <p>毎日、進捗状況をコーチが確認するから、計画通りに学習を進められます。</p>
+        </div>
+        <div class="content">
+          <h4>理解度チェック(5分)</h4>
+          <p>毎日、前日の勉強内容について理解度や定着具合をチェックするから、着実に身につけながら学習を進めることができます。</p>
+        </div>
+        <div class="content">
+          <h4>やることリスト作成(5分)</h4>
+          <p>毎日、コーチが宿題やテストなども踏まえて今日やるべき勉強をリストアップしてくれるから迷わず勉強できます。</p>
+        </div>
+      </div>
+      <div class="coaching-pic">
+        <div class="student">
+          <img src="./images/student.jpg" alt="教師と生徒" id="student">
+          <img src="./images/time.jpg" alt="時間配分" id="time">
+        </div>
+        <div class="student02">
+          <img src="./images/line.jpg" alt="LINEのやり取り" id="student02">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="benefit">
+    <div class="decoration"></div>
+    <div class="overview">
+      <h2>BENEFIT</h2>
+      <h3>たった66日間で<br>
+        揺るぎない勉強習慣と自信を手にいれる</h3>
+      <img src="./images/benefit.jpg" alt="BENEFIT">
+    </div>
+
+    <div class="contents container">
+      <div class="content">
+        <img src="./images/benefit001.jpg" alt="benefit01" class="position">
+        <div class="text">
+          <h5>01 | 習慣を味方につけ、成績が伸びる好循環が手に入る</h5>
+          <p>勉強って大変で辛いものだと思っている君でも、<br>毎日続けていくうちに「そんなことないな」って思えるようになります。<br>毎日やればわかるようになるし、わかると楽しいからもっとやる気が出ます。<br>何より、勉強のストレスがなくなります。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit002.jpg" alt="benefit02">
+        <div class="text">
+          <h5>02 | 何を勉強すればいいか、もう迷わない</h5>
+          <p>最初の計画に加えて、学校のテストや宿題も踏まえて<br>コーチが今日やることリストをLINEで送ってくれるからやることに迷わないし<br>リストを潰していけば目標達成に自然と近づいていきます。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit003.jpg" alt="benefit03" class="position">
+        <div class="text">
+          <h5>03 | コーチの言葉がモチベーションUPになる</h5>
+          <p>毎日、昨日勉強した内容を確認して褒めてくれるから「また頑張ろう」というきもちになります。<br>詳しく学習状況を把握してくれているのがわかっているからこそ、たまに言われるよりも断然やる気が出ます。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit004.jpg" alt="benefit04" class="position">
+        <div class="text">
+          <h5>04 | 継続できたことが自信につながる</h5>
+          <p>テスト前しか勉強しなかったのに、66日間毎日勉強を続けられた。<br>せっかく続けてきたからこれからもがんばりたい、<br>勉強に関して自分も頑張れるんだという自信がつきます。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit005.jpg" alt="benefit05">
+        <div class="text">
+          <h5>05 | 毎日勉強するキッカケになる</h5>
+          <p>やる気が出ない日でもコーチと15分ビデオ通話すると<br>「頑張ろう！」という気持ちになります。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit006.jpg" alt="benefit06">
+        <div class="text">
+          <h5>06 | 勉強の絶対量が増えることで成績があがる</h5>
+          <p>今まであまり勉強してなかったからこそ、伸び代は無限大！<br>毎日勉強するようになったらあっという間に<br>テストの点数が20以上あがった、なんてことも。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit007.jpg" alt="benefit07">
+        <div class="text">
+          <h5>07 | 計画的な勉強の仕方が身に付く</h5>
+          <p>最初にたてた目標を踏まえて、「今日は英語の問題集を4ページやろう。」など計画的な学習を実施します。毎日これを繰り返すことで、自然と目標から逆算した計画的な勉強の仕方が身につきます。</p>
+        </div>
+      </div>
+      <div class="content">
+        <img src="./images/benefit008.jpg" alt="benefit08">
+        <div class="text">
+          <h5>08 | 大人になっても使える勉強習慣術が身に付く</h5>
+          <p>66日間で身につけた勉強習慣は一生モノ。<br>もしも大人になって資格試験の勉強をしなければいけなくなったときも身につけた計画的な勉強の仕方と勉強に対する自信があれば自力で学習を習慣化し、有利に試験対策を進めることができます。<br>つまり、実際の実施期間以上にそのメリットは大きいのです。</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="change">
+    <div class="decoration04"></div>
+    <div class="changes container">
+      <div class="text">
+        <h2>“67日目”に<br>本当の変化を実感</h2>
+        <h5>良い学習サイクルがうまれているから<br>「勉強しないと気持ちわるい」</h5>
+        <div class="check">
+          <div class="check-text">
+            <img src="./images/check.jpg" alt="チェック" width="30" height="30">
+            <p>絶対的な勉強量の増加</p>
+          </div>
+          <div class="check-text">
+            <img src="./images/check.jpg" alt="チェック" width="30" height="30">
+            <p>自然に成績が伸びる好循環</p>
+          </div>
+          <div class="check-text">
+            <img src="./images/check.jpg" alt="チェック" width="30" height="30">
+            <p>継続できたことの達成感が自信に</p>
+          </div>
+        </div>
+        <h5>小さなことを積み重ねるのが、とんでもないところへ行くためのただ1つの道だと思っています。<br>- イチロー</h5>
+      </div>
+
+      <div class="check-pic">
+        <div class="before">
+          <img src="./images/before.jpg" alt="BEFORE画像">
+          <h4>BEFORE</h4>
+        </div>
+        <div class="after">
+          <img src="./images/after.jpg" alt="AFTER画像">
+          <h4>AFTER</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="central-cv">
+    <img src="./images/cv-icon.jpg" alt="CVのアイコン" id="icon">
+    <div class="cv container">
+      <div class="text">
+        <h2>勉強習慣こそ飛躍への第一歩</h2>
+        <h1><span>66日間で勉強の悩みから</span><span>解放されませんか？</span></h1>
+        <div class="btn">
+          <button onclick="location.href='#contact'">
+            <p>無料カウンセリング</p>
+          </button>
+          <div class="tel">
+            <a href="#">公式LINE</a>
+            <p>電話でのお問い合わせは<br>
+              03-6693-3951まで（受付時間 平日9:00~18:00）</p>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/sample2.jpg" alt="CVイメージ">
+      </div>
+    </div>
+  </section>
+
+  <section class="customer-voice" id="customer-voice">
+    <div class="decoration03"></div>
+    <div class="text">
+      <h2>CUSTOMER VOICE</h2>
+      <h3>お客さまの声</h3>
+    </div>
+    <div class="voices container">
+      <div class="voice01">
+        <h3>よかった</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div class="student01">
+          <img src="./images/Oval.jpg" alt="山田太郎くん" width="80" height="80">
+          <div>
+            <h4>山田太郎くん</h4>
+            <p>XX県 高校X年生</p>
+          </div>
+        </div>
+      </div>
+      <div class="voice02">
+        <h3>XXX</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div class="student02">
+          <img src="./images/Oval2.jpg" alt="田中次郎くん" width="80" height="80">
+          <div>
+            <h4>田中次郎くん</h4>
+            <p>XX県 中学X年生</p>
+          </div>
+        </div>
+      </div>
+      <div class="voice01">
+        <h3>XXX</h3>
+        <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+        <div class="student03">
+          <img src="./images/Oval3.jpg" alt="高田和子さま" width="80" height="80">
+          <div>
+            <h4>高田和子さま</h4>
+            <p>XX県 中学2年 (親御様)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="price">
+    <div class="decoration02"></div>
+    <div class="text">
+      <h2>PRICE</h2>
+      <h3>料金</h3>
+    </div>
+    <div class="price-text container">
+      <p class="main-text">
+        学習塾にかかる費用は平均して<span class="one">年間40万円前後</span>と言われています。<br>せっかく高い授業料を払ったのに、伸びずじまい・・・<br>そんな苦い経験をよく耳にします。<br><br><span>習慣を味方につけ、自然に伸びる好循環を手に入れる</span>ことでもう、勉強の悩みから解放されませんか？<br><br>秀桜会では、短期的に通用するノウハウではなく、<br>期間終了後もずっと有効な、<span class="two">揺るぎない勉強習慣</span>と<span class="three">自信</span>を身につけることができます。<br><br>かかる時間や費用対効果を考えれば断然効率的です。<br>お金も時間も無駄にしない、最初で最後の勉強習慣の習得をはじめませんか？
+      </p>
+
+      <div class="price-main">
+        <div class="rectangle01"></div>
+        <div class="rectangle02"></div>
+
+        <div class="join">
+          <h2>入会金</h2>
+          <p><span>¥20,000</span>　➡︎　¥0</p>
+        </div>
+        <div class="guide">
+          <h2>指導料</h2>
+          <p><span>¥99,800</span>　➡︎　¥64,680<span> (税込)</span></p>
+        </div>
+        <div class="supplement">
+          <h2>(1<span>時間あたり</span>¥3,920)</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cost">
+    <div class="decoration02"></div>
+    <div class="text">
+      <h3>【料金比較表】</h3>
+      <p>下記は大手塾/家庭教師の中学2年生の料金を比較した表です。<br><span>入会金と1時間あたりの料金を総合して考えれば、どこよりもリーズナブルな料金となっています。</span></p>
+    </div>
+
+    <div class="cost-table">
+      <table>
+        <tr class="head">
+          <th></th>
+          <th id="emp01"><span>秀桜会</span></th>
+          <th>I個別指導学院</th>
+          <th>T個別指導学院</th>
+          <th>家庭教師T</th>
+          <th id="online"><span>オンライン</span><span>家庭教師M</span></th>
+        </tr>
+        <tr class="first">
+          <th>入会金</th>
+          <td id="emp02"><span>¥0</span></td>
+          <td>¥13,200</td>
+          <td>¥0</td>
+          <td>¥10,500</td>
+          <td>¥15,000</td>
+        </tr>
+        <tr class="second">
+          <th>先生：生徒</th>
+          <td id="emp03"><span>1：1</span></td>
+          <td>1：1</td>
+          <td>1：1</td>
+          <td>1：1</td>
+          <td>1：1</td>
+        </tr>
+        <tr class="third">
+          <th>授業時間/頻度</th>
+          <td id="emp04"><span>1回15分/毎日</span></td>
+          <td>1回50分/月4回</td>
+          <td>1回60分/月4回</td>
+          <td>1回90分/月4回</td>
+          <td>1回80分/月4回</td>
+        </tr>
+        <tr class="fourth">
+          <th>月謝</th>
+          <td id="emp05"><span>ー</span></td>
+          <td>¥12,700</td>
+          <td>¥34,560</td>
+          <td>¥28,000</td>
+          <td>¥23,936</td>
+        </tr>
+        <tr class="fifth">
+          <th id="entry">1時間あたりの料金<br>(入会金は含みません)</th>
+          <td id="emp06"><span>¥3,920</span></td>
+          <td>¥3,810</td>
+          <td>¥6,480</td>
+          <td>¥4,667</td>
+          <td>¥4,488</td>
+        </tr>
+      </table>
+      <p id="table-text">もちろん、指導期間中の料金も良心的な設定となっておりますが、<br>秀桜会の真骨頂は“<span>66日間で自主的に勉強する習慣が身に付く</span>”ことです。<br>長期スパンで考えたとき、圧倒的なコストパフォーマンスの良さを実感していただけると思います。</p>
+    </div>
+    <div class="year-cost">
+      <img src="./images/yearcost.jpg" alt="年間コスト">
+      <p>➡︎　コスパで選ぶならダンゼン<span>秀桜会</span></p>
+    </div>
+  </section>
+
+  <section class="trial">
+    <div class="decoration02"></div>
+    <div class="container">
+      <div class="text">
+        <h2>TRIAL</h2>
+        <h3>無料体験授業</h3>
+        <p>実際に担当予定のコーチで、毎日15分のコーチングを体感いただけます。<br>コーチとの相性を確認してから始められるから安心です。<br>なお、無料体験授業の期間は66日には含まれません。</p>
+      </div>
+      <div class="days">
+        <h2><span>＼ </span>無料体験授業 7日間<span> ／</span></h2>
+        <p>さらに！いまだけ無料体験授業を受けていただいたすべての方に<br><span>Amazonギフト券1,000円分</span>を贈呈いたします。<br>もちろん、入会有無にかかわらず、7日間受けていただいた方、全員が対象です。</p>
+      </div>
+      <p id="text02">無料体験を受けたからと言って、必ず入会する必要はありません!!<br>秀桜会のサービスってどんな感じなんだろう？<br>ちょっと塾と比べてみたい。<br>気になったら気軽にお試しOKです。<br>無料体験授業を機に営業活動を始めることも絶対にありません。</p>
+    </div>
+  </section>
+
+  <section class="message">
+    <div class="text">
+      <h2>MESSAGE</h2>
+      <h3>申し送り事項</h3>
+      <h4><span>場合によってはご受講</span><span>いただけない場合がございます。</span></h4>
+    </div>
+    <div class="sub-text container">
+      <p><span>もしもお望みの内容が、</span><br><br>・いま週に平均して4時間勉強しているのを6時間に伸ばしたい<br>・わからない問題の解き方をビデオ通話で直接教えて欲しい<br><br>という場合は、本コースでご希望にこたえることはできません。<br><br><span>でも、もしいま、</span><br><br><span id="pink">・平日の勉強を平均1時間未満しかできてない<br>・平日の勉強時間は平均2時間程度だが日によってムラがある<br>・勉強に苦手意識があり、机に向かうまで時間がかかる<br>・なかなか勉強のやる気が出ない</span><br><br>というお子様で現状を改善したいと考えている場合は、<br>本コースを気に入っていただけると思います。<br><br>現状すでに十分な勉強時間が確保できている方向けではありませんし、<br>わからない問題の解き方を直接教えるコースではございません。<br><br>ですが、現状十分な勉強時間が確保できておらず、なかなか勉強のやる気が出ない<br>お子様には最適な内容になっておりますので、十分に活用していただけます。</p>
+    </div>
+  </section>
+
+  <section id="faq" style="opacity: 0">
+    <!-- <div class="decoration03"></div> -->
+    <div>
+      <h2>FAQ</h2>
+      <h3>よくある質問</h3>
+    </div>
+  </section>
+
+  <section id="flow">
+    <div class="decoration02"></div>
+    <div class="text">
+      <h2>FLOW</h2>
+      <h3>サービス開始までの流れ</h3>
+    </div>
+    <div class="supports container">
+      <div class="support">
+        <div class="flow01">
+          <img src="./images/flow01.jpg" alt="無料カウンセリング">
+        </div>
+        <div class="talk">
+          <h3>01 | 無料カウンセリング(90分)</h3>
+          <p>PCまたはスマートフォンのビデオ通話で実施します。現在の学習状況のヒアリング、目標設定や66日間の計画策定を行います。基本はカウンセラーとのマンツーマンで開催しますが、親御様の参加も大歓迎です。</p>
+        </div>
+      </div>
+      <div class="support">
+        <div class="flow02">
+          <img src="./images/flow02.jpg" alt="無料体験授業">
+        </div>
+        <div class="talk">
+          <h3>02 | 無料体験授業(7日間)</h3>
+          <p>実際に毎日15分のコーチングを無料で7日間行います。プログラム開始後と同じやり方・内容で行うので、コーチとの相性やスタート後のイメージを確認していただけます。スマートフォンさえあればOKです。</p>
+        </div>
+      </div>
+      <div class="support">
+        <div class="flow03">
+          <img src="./images/flow03.jpg" alt="コーチング">
+        </div>
+        <div class="talk">
+          <h3>03 | 毎日15分のコーチング(66日間)</h3>
+          <p>毎日15分の使い方は、進捗確認(5分)、学習定着度チェック(5分)、やることリスト作成(5分)。コーチとの会話がお子様を勉強モードに切り替えます。毎日だから、3日坊主になる心配もありません。</p>
+        </div>
+      </div>
+      <div class="support">
+        <div class="flow04">
+          <img src="./images/flow04.jpg" alt="プログラム終了">
+        </div>
+        <div class="talk">
+          <h3>04 | プログラム(67日間)</h3>
+          <p>66日間のプログラムを無事に終えた君にはコーチからささやかなご褒美が贈呈されます。毎日学習を継続できたことで、勉強習慣と自信を手に入れることができています。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="opacity: 0">
+    <!-- <div class="decoration03"></div> -->
+    <div class="text">
+      <h2>CONTACT</h2>
+      <h3>お問い合わせ</h3>
+    </div>
+  </section>
+
+  <div class="last-message">
+    <div class="background">
+      <div class="text">
+        <h2>LAST MESSAGE</h2>
+        <h3>最後に</h3>
+      </div>
+      <div class="desc container">
+        <p>ここまでお読みいただきありがとうございます。<br><br>もしかすると、いきなりここを読んでいるかもしれませんね。<br><br>私もそのタイプです。<br><br>上から読んでも、ここから読んでもご理解頂けるように、お伝えさせて頂いたことをまとめさせていただきますね。<br><br>勉強習慣専門の家庭教師、秀桜会では<span>毎日15分×66日間</span>で“<span>自主的に勉強する習慣</span>”を<br>確実に身につけることができるコースを開講しております。<br><br>このコースを受講することで、たった66日間で、<br>揺るぎない勉強習慣と自信を手にいれることができます。<br><br>なぜなら、<br><br>専門カウンセラーによる「<span>66日間のプランニング</span>」と<br>担当コーチによる「<span>毎日15分のコーチング</span>」により、<br>無理なく楽しく“<span>習慣を味方につけ、自然に伸びる好循環</span>”を手に入れることができるからです。<br><br>本コースは完全マンツーマンレッスンになっていて、<br>目標設定/計画から毎日のやることリストまで、<br>すべて<span>オーダーメイド</span>で一人一人に最適なものを作成いたします。<br><br>少しでも「気になる」と思われたのであれば、お気軽にお問い合わせください。<br><br>最後になりますが、これだけお伝えさせて頂いて締めとさせてください。<br><br><span id="life">「人生史上最高に成長した66日間にしてみせます！」</span><br><br>ここまでお読み頂いて、もし私のメッセージにご共感頂けたのであれば、<br>ぜひ無料体験授業にご参加ください。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <section class="central-cv">
+    <img src="./images/cv-icon.jpg" alt="CVのアイコン" id="icon">
+    <div class="cv container">
+      <div class="text">
+        <h2>勉強習慣こそ飛躍への第一歩</h2>
+        <h1>66日間で勉強の悩みから解放されませんか？</h1>
+        <div class="btn">
+          <button onclick="location.href='#contact'">
+            <p>無料カウンセリング</p>
+          </button>
+          <div class="tel">
+            <a href="#">公式LINE</a>
+            <p>電話でのお問い合わせは<br>
+              03-6693-3951まで（受付時間 平日9:00~18:00）</p>
+          </div>
+        </div>
+      </div>
+      <div class="image">
+        <img src="./images/sample2.jpg" alt="CVイメージ">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer container">
+      <div class="footer-logo">
+        <h2>勉強習慣専門の家庭教師</h2>
+        <div>
+          <img src="./images/logo-footer.jpg" alt="ロゴ" id="footer-logo">
+        </div>
+      </div>
+      <div class="sp-footer">
+        <div class="footer-menu">
+          <h2>MENU</h2>
+          <ul>
+            <li><a href="#service">サービス</a></li>
+            <li><a href="#customer-voioce">お客さまの声</a></li>
+            <li><a href="#price">料金</a></li>
+            <li><a href="#faq">よくある質問</a></li>
+            <li><a href="#flow">開始までの流れ</a></li>
+          </ul>
+        </div>
+        <div class="policy">
+          <div class="sns">
+            <ul>
+              <li><a href="#"><i class='bx bxl-facebook'></i></a></li>
+              <li><a href="#"><i class='bx bxl-twitter' ></i></a></li>
+              <li><a href="#"><i class='bx bxl-instagram' ></i></a></li>
+            </ul>
+          </div>
+          <div class="desc">
+            <p>特定商取引法に基づく表記</p>
+            <p>プライバシーポリシー</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <small><p>Copyright © 2022 XXXX. All Rights Reserved.</p></small>
+  </footer>
+  
+  <script src="js/main.js"></script>
+</body>
+</html>

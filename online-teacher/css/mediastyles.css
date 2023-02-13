@@ -1,0 +1,838 @@
+/* ----------  media medium screen ---------- */
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  header ul li a {
+    font-size: 14px;
+  }
+
+  .container {
+    width: calc(100% - 100px);
+    text-align: center;
+    margin: 0 auto;
+  }
+
+ /* ---------- hero section ---------- */
+  .hero {
+    height: 650px;
+  }
+
+  .main-message h3 {
+    padding-left: 25px;
+    font-size: 24px;
+  }
+
+  .main-message h1 {
+    font-size: 32px;
+    width: 90%;
+    padding: 10px 15px 10px 20px;
+    margin: 25px 0 20px 0;
+  }
+
+  .main-message h1 span {
+    font-size: 48px;
+  }
+
+  .main-message h2 {
+    font-size: 36px;
+    line-height: 55px;
+  }
+
+  .sub-message {
+    position: absolute;
+    bottom: 120px;
+  }
+
+  .sub-message #students {
+    padding: 5px 30px;
+    margin-left: 20px;
+  }
+
+  .sub-message h5 {
+    font-size: 18px;
+    padding: 10px 15px;
+    margin-left: 20px;
+  }
+
+  .sub-message h5 span:last-child {
+    margin-right: 3px;
+  }
+
+  .sub-message h5 #seven {
+    margin-left: 3px;
+    font-size: 24px;
+  }
+
+  .btn {
+    position: absolute;
+    bottom: 40px;
+  }
+
+  .btn button {
+    margin-left: 15px;
+    width: 270px;
+  }
+
+  .btn button p {
+    font-size: 20px;
+  }
+
+  .btn a {
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 5px;
+  }
+
+  header #menu {
+    display: none;
+    z-index: 3;
+  }
+
+  .show {
+    display: block;
+  }
+
+  header #menu ul {
+    display: block;
+    margin-top: 100px;
+    text-align: center;
+  }
+
+  header #menu ul li + li {
+    margin-left: 0;
+    margin-top: 50px;
+  }
+
+  header #menu ul li:last-child {
+    margin-top: 50px;
+  }
+
+  header ul li a {
+    font-size: 18px;
+  }
+
+  header #sp-menu {
+    display: block;
+  }
+
+  header #sp-menu,
+  header #sp-close {
+    color: #fff;
+    font-size: 48px;
+    margin-top: 10px;
+    cursor: pointer;
+    z-index: 4;
+  }
+
+  header #modal {
+    display: none;
+  }
+
+  .mdShow {
+    width: 100%;
+    height: 650px;
+    background-color: #DD8AA5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
+ /* ---------- worry section ---------- */
+   .worry {
+    height: auto;
+    padding-bottom: 70px;
+   }
+
+   .worry h1 {
+    font-size: 24px;
+   }
+
+   .worry h3 {
+    padding-top: 30px;
+    line-height: 50px;
+  }
+
+  .worry .info {
+    padding-top: 50px;
+  }
+
+   .woory img {
+    width: 80%;
+    height: 250px;
+    object-fit: cover;
+   }
+
+   .worry .info .desc01,
+   .worry .info .desc02 {
+    display: block;
+  }
+
+ /* ---------- about section ---------- */
+   .about {
+    height: auto;
+    padding-bottom: 70px;
+   }
+
+   .about .triangle {
+    top: -80px;
+    left: calc((100% - 100px)/2);
+   }
+
+   .about h1 span {
+    display: inline-block;
+    line-height: 1.5;
+  }
+
+  .about img {
+    width: 90%;
+    object-fit: cover;
+  }
+
+  .about h1 {
+    font-size: 24px;
+    padding-top: 80px;
+  }
+  
+  .about h2 {
+    padding: 40px 0 30px 0;
+  }
+
+  .about h3 {
+    padding-bottom: 50px;
+  }
+
+  .about .info {
+    display: block;
+  }
+
+  .about .info .desc p:first-child {
+    width: 100%;
+    padding-top: 40px;
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .about .info .desc .reason span {
+    margin-left: 10px;
+  }
+
+  .about .info .desc p:last-child {
+    width: 100%;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+
+  /* ---------- profile section ---------- */
+   .profile {
+    height: auto;
+    padding-bottom: 70px;
+   }
+
+   .profile h2 {
+    padding-top: 100px;
+   }
+
+   .profile h3 {
+    padding: 30px 0 50px 0;
+  }
+
+   .profile #pc-profile {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .profile .info {
+    display: block;
+  }
+
+  .profile .info .desc p {
+    width: 95%;
+    font-size: 18px;
+    padding-top: 50px;
+    padding-left: 12px;
+  }
+
+  .profile .info .desc p span {
+    font-size: 20px;
+  }
+
+/* ---------- service section ---------- */
+  #service {
+    height: auto;
+    padding-bottom: 70px;
+  }
+
+  #service .overview h2 {
+    padding-top: 100px;
+  }
+
+  #service h3 {
+    padding: 30px 0 50px 0;
+  }
+
+  #service .planning .schedule {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  #service .planning .schedule img {
+    width: 40%;
+    height: auto;
+    object-fit: fill;
+    margin: 0 20px 0 20px;
+  }
+
+  #service .planning .schedule img + img {
+    padding-top: 40px;
+  }
+
+  #service .overview p,
+  #service .planning p,
+  #service #coach {
+    width: 55%;
+  }
+
+  #service .coaching .check {
+    gap: 20px;
+  }
+
+  #service .coaching .check .content {
+    width: 400px;
+  }
+
+  #service .coaching .check .content p {
+    height: 130px;
+    font-size: 13px;
+  }
+
+  #service .coaching .check .content h4 {
+    font-size: 14px;
+  }
+
+  #service .coaching .coaching-pic {
+    margin: 50px auto 0;
+  }
+
+/* ---------- benefit section ---------- */
+.benefit {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.benefit .container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.benefit .overview {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.benefit .overview img {
+  height: 350px;
+}
+
+.benefit .overview h3 {
+  padding: 50px 0 50px 0;
+}
+
+.benefit .content {
+  width: calc((100% - 80px)/2);
+  height: auto;
+  background-color: #fff;
+}
+
+.benefit .content img {
+  height: auto;
+}
+
+.benefit .content .text {
+  height: fit-content;
+  padding: 15px;
+}
+
+.benefit .content .text h5 {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.benefit .content .text p {
+  font-size: 12px;
+}
+
+.benefit .contents {
+  gap: 30px;
+}
+
+/* ---------- change section ---------- */
+.change {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.change .decoration04 {
+  height: 90px;
+}
+
+.changes {
+  padding-top: 100px;
+  gap: 0px;
+}
+
+.changes .text h5 {
+  font-size: 16px;
+}
+
+.changes .text h5:last-child {
+  width: 370px;
+}
+
+.changes .check {
+  width: 90%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.changes .check .check-text img {
+  width: 20px;
+  height: 20px;
+}
+
+.changes .check-pic {
+  margin-left: 30px;
+  display: block;
+  width: 300px;
+}
+
+.change .check-pic img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  object-position: top;
+}
+
+.changes .check-pic .before {
+  width: 100%;
+  height: 200px;
+}
+
+.changes .check-pic .after {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.changes .check-pic .before h4 {
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+.changes .check-pic .after h4 {
+  font-size: 14px;
+  padding-top: 7px;
+}
+
+/* ---------- central-cv section ---------- */
+.central-cv {
+  height: 300px;
+}
+
+.central-cv #icon {
+  top: -50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.central-cv .cv .text h1 {
+  font-size: 20px;
+  line-height: 1.4;
+  padding: 20px 0 30px 0;
+  /* width: 300px; */
+}
+
+.central-cv .cv .text h2 {
+  font-size: 18px;
+  line-height: 1.4;
+  padding-top: 80px;
+  /* width: 300px; */
+}
+
+.central-cv .cv .text h1 span {
+  display: inline-block;
+  line-height: 1.6;
+}
+
+.central-cv .cv .btn button {
+  width: 220px;
+}
+
+.central-cv .cv .btn p,
+.central-cv .cv .btn a {
+  font-size: 16px;
+}
+
+.central-cv .cv .btn .tel p {
+  padding-top: 5px;
+  font-size: 12px;
+}
+
+.central-cv .cv .image img {
+  width: 35%;
+  height: auto;
+  margin-top: 0;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  object-fit: cover;
+} 
+
+/* ---------- customer-voice section ---------- */
+.customer-voice {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.customer-voice .voices {
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.customer-voice .text h2 {
+  padding-top: 100px;
+}
+
+.customer-voice .voices .voice01,
+.customer-voice .voices .voice02 {
+  padding: 30px 30px 10px 30px;
+}
+
+.customer-voice .voices h4 {
+  font-size: 18px;
+}
+
+.customer-voice .voices p {
+  font-size: 14px;
+}
+
+.customer-voice .voices .student01,
+.customer-voice .voices .student02,
+.customer-voice .voices .student03 {
+    padding-bottom: 40px;
+    gap: 40px;
+  }
+
+/* ---------- price section ---------- */
+#price {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+#price .text {
+  padding-top: 100px;
+}
+
+#price .price-main {
+  padding-top: 50px;
+}
+
+#price .price-text .main-text .one,
+#price .price-text .main-text .two,
+#price .price-text .main-text .three {
+  font-size: 20px;
+}
+
+#price .price-main .join,
+#price .price-main .guide {
+  width: 90%;
+  padding-left: 80px;
+}
+
+#price .price-main .join h2,
+#price .price-main .guide h2,
+#price .price-main .supplement h2 {
+  font-size: 20px;
+}
+
+#price .price-main .join p,
+#price .price-main .guide p {
+  font-size: 20px;
+}
+
+#price .price-main .join p span,
+#price .price-main .guide p span {
+  font-size: 16px;
+}
+
+#price .price-main .guide p span:last-child {
+  font-size: 14px;
+}
+
+#price .price-main .supplement {
+  width: 90%;
+  padding-left: 0;
+  text-align: center;
+}
+
+#price .price-main .supplement span {
+  font-size: 16px;
+}
+
+#price .price-main .rectangle01 {
+  bottom: 60px;
+  left: 50px;
+  width: 10px;
+  height: 160px;
+}
+
+#price .price-main .rectangle02 {
+  bottom: 60px;
+  right: 50px;
+  width: 10px;
+  height: 160px;
+}
+
+/* ----------  cost section ---------- */
+.cost {
+  padding-top: 100px;
+}
+
+.cost .text p {
+  width: 80%;
+  padding: 50px 0 50px 0;
+}
+
+.cost .cost-table {
+  width: 80%;
+}
+
+.cost .year-cost {
+  width: 80%;
+}
+
+.cost .year-cost p {
+  font-size: 24px;
+  padding: 50px 0 50px 0;
+}
+
+.cost .year-cost p span {
+  font-size: 32px;
+}
+
+.cost .head #online {
+  padding: 0;
+  margin: 0;
+  width: 15%;
+}
+
+.cost .head #online span {
+  color: #000;
+  display: inline-block;
+  line-height: 1.3;
+  font-size: 16px;
+}
+
+/* ----------  trial section ---------- */
+.trial {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.trial .text h2 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.trial p,
+.trial #text02 {
+  width: 65%;
+  padding-top: 50px;
+}
+
+.trial p span {
+  font-size: 24px;
+}
+
+.trial .days {
+  width: 75%;
+  height: auto;
+  padding: 60px 20px 60px 20px;
+}
+
+.trial .days h2 span {
+  font-size: 28px;
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+
+/* ----------  message section ---------- */
+.message {
+  height: auto;
+  padding-bottom: 70px;
+  background-position: center;
+}
+
+.message .text h2 {
+  padding-top: 100px;
+}
+
+.message .text h4 {
+  font-size: 24px;
+}
+
+.message .text h4 span {
+  display: inline-block;
+  line-height: 1.5;
+  text-decoration: underline;
+}
+
+.message .sub-text {
+  width: 60%;
+}
+
+.message .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.message .sub-text span {
+  font-size: 20px;
+}
+
+.message .sub-text #pink {
+  font-size: 18px;
+}
+
+/* ----------  flow section ---------- */
+.flow {
+  height: auto;
+  padding-bottom: 70px;
+}
+#flow .text h2 {
+  padding-top: 100px;
+}
+
+#flow .text h3 {
+  padding: 30px 0 50px 0;
+}
+
+#flow .supports {
+  width: 75%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+#flow .supports .support img {
+  width: 100%;
+  height: 250px;
+}
+
+#flow .supports .support {
+  display: block;
+  padding-bottom: 50px;
+}
+
+#flow .supports .support + .support {
+  padding-top: 50px;
+}
+
+#flow .supports .support h3 {
+  text-align: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* ----------  last-message section ---------- */
+.last-message {
+  height: auto;
+  margin-bottom: 70px;
+}
+
+.last-message .background {
+  height: auto;
+  padding-bottom: 70px;
+}
+
+.last-message .background .text h2 {
+  padding-top: 100px;
+}
+
+.last-message .background .desc {
+  width: 80%;
+}
+
+.last-message .background .desc p #life {
+  font-size: 20px;
+}
+
+/* ---------- footer ---------- */
+footer .footer {
+  padding: 70px 0 70px 0;
+}
+
+footer #footer-logo {
+  width: 120px;
+  height: 120px;
+}
+
+footer  h2 {
+  font-size: 16px;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer .footer-menu {
+  margin-right: 50px;
+}
+
+footer .sns {
+  padding-bottom: 30px;
+  margin-top: -10px;
+}
+
+footer .policy .sns ul li {
+  width: 35px;
+  height: 35px;
+}
+
+footer .policy .sns ul li i {
+  font-size: 18px;
+  padding-left: 1px;
+}
+
+footer .desc p + p {
+  margin-top: 15px;
+}
+
+footer small p {
+  font-size: 12px;
+}
+
+}
