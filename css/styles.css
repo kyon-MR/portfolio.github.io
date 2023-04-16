@@ -227,6 +227,11 @@ main h2 {
   opacity: 0.6;
 }
 
+.printed-matter a,
+.ectype a {
+  font-weight: bold;
+}
+
 /* ------------- skills ------------- */
 #skills h3 {
   font-size: 64px;
