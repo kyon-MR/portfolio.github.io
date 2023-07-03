@@ -153,6 +153,32 @@ header h2 {
   z-index: 3;
 }
 
+.sub-menu {
+  background-color:#064a61;
+  padding: 10px;
+  position: absolute;
+  top: 140px;
+  right: 80px;
+  z-index: 5;
+  opacity: 0;
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.sub-menu.appear {
+  opacity: 1;
+  pointer-events: visible;
+}
+
+.sub-menu div + div {
+  padding-top: 15px;
+}
+
+.sub-menu a:hover {
+  opacity: 0.5;
+  text-decoration: underline;
+}
+
 /* ------------- main-pic ------------- */
 .main-pic {
   width: 100%;
