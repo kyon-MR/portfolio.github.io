@@ -23,7 +23,15 @@
       $("body, html").animate({scrollTop: pos}, 500);
       return false;
     });
+
+    $("div a").click(function() {
+      let href = $(this).attr("href");
+      let pos = $(href).offset().top;
+      $("body, html").animate({scrollTop: pos}, 500);
+      return false;
+    });
   });
+
 
   /* ----------- Humburger Menu ------------ */
   const open = document.getElementById('open');
@@ -52,6 +60,18 @@
   menu.addEventListener('click', () => {
     close.click();
   });
+
+  /* ----------- Sub Menu ------------ */
+const subMenu = document.getElementById('sub-menu');
+const menuWorks = document.getElementById('menu-works');
+
+menuWorks.addEventListener('mouseover', () => {
+  subMenu.classList.add('appear');
+});
+
+subMenu.addEventListener('mouseleave', () => {
+  subMenu.classList.remove('appear');
+});
 
   /* ----------- to_top Scroll ------------*/
   function callback(entries) {
