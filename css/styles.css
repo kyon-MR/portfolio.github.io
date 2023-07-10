@@ -157,8 +157,8 @@ header h2 {
   background-color:#064a61;
   padding: 10px;
   position: absolute;
-  top: 140px;
-  right: 80px;
+  top: 150px;
+  right: 50px;
   z-index: 5;
   opacity: 0;
   transition: 0.5s;
