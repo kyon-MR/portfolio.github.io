@@ -231,6 +231,14 @@
     font-size: 18px;
   }
 
+  .my-name h1 {
+    font-size: 32px;
+  }
+
+  .my-name h2 {
+    font-size: 30px;
+  }
+
   #profile, #skills, #works, #contact {
     padding-top: 40px;
   }
@@ -258,6 +266,10 @@
 
   #menu ul li {
     margin: 0 25px;
+  }
+
+  #menu ul li a {
+    font-size: 32px;
   }
 
   /* ------------- mainphoto ------------- */
@@ -292,9 +304,13 @@
     height: 300px;
   }
 
+  #profile h2 {
+    font-size: 48px;
+  }
+
   .profile {
     display: flex;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     padding-top: 30px;
     padding-left: 80px;
@@ -303,16 +319,21 @@
   .profile p {
     padding-top: 50px;
     padding-left: 60px;
+    font-size: 20px;
   }
 
   #profile p a {
-    font-size: 18px;
+    font-size: 20px;
   }
 
    /* ------------- skills ------------- */
   .skill {
     width: 95%;
     gap: 30px;
+  }
+
+  #skills h2 {
+    font-size: 48px;
   }
 
   #skills h3 {
@@ -326,6 +347,10 @@
   } 
 
    /* ------------- works ------------- */
+  #works h2 {
+    font-size: 48px;
+  }
+
   #works .ectype {
     max-width: 1180px;
   }
@@ -402,6 +427,11 @@
   #contact p {
     width: 100%;
     text-align: center;
+    font-size: 24px;
+  }
+
+  #contact h2 {
+    font-size: 48px;
   }
 
   .sns {
@@ -423,7 +453,7 @@
   }
   
   footer h2 {
-    font-size: 18px;
+    font-size: 28px;
   }
   
   #capsule {

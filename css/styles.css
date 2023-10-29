@@ -1,4 +1,5 @@
 /* ------------- common ------------- */
+
 body {
   background: #0A1F54;
   color: white;
@@ -14,30 +15,30 @@ body {
 h1 {
   /* font-family: proxima-nova, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; */
   font-family: cursive;
-  font-size: 14px;
+  font-size: 36px;
 }
 
 h2 {
   /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
   font-family: cursive;
-  font-size: 30px;
+  font-size: 48px;
   font-style: italic;
 }
 
 h3 {
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
-  font-size: 14px;
+  font-size: 36px;
   font-style: italic;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 30px;
 }
 
 a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 20px;
   /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
   font-family: cursive;
   font-style: italic;
@@ -45,7 +46,7 @@ a {
 
 p {
   text-align: left;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.4;
 }
 
@@ -71,8 +72,8 @@ header {
 }
 
 header h2 {
-  font-size: 12px;
-  padding-top: 8px;
+  font-size: 18px;
+  padding-top: 15px;
 }
 
 .header-sub {
@@ -226,8 +227,8 @@ main h2 {
 }
 
 #profile p {
-  width: 60%;
-  margin: 0 auto;
+  width: 80%;
+  margin: 0 auto -50px;
   letter-spacing: 1.2;
 }
 
@@ -244,7 +245,7 @@ main h2 {
 #profile p a {
   font-family:Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-size: 14px;
+  font-size: 18px;
   color: #00ffff;
   text-decoration: underline;
 }
@@ -265,7 +266,7 @@ main h2 {
 }
 
 #skills h4 {
-  font-size: 16px;
+  font-size: 20px;
   text-decoration: underline double #00ffff;
   letter-spacing: 1.5px;
   padding-bottom: 30px;
@@ -329,11 +330,12 @@ main h2 {
 }
 
 #works h4 {
-  font-size: 18px;
+  font-size: 28px;
   text-decoration: underline double #00bfff;
   padding-top: 10px;
   padding-bottom: 15px;
   letter-spacing: 1.5px;
+  line-height: 1.4;
 }
 
 #works .actual h4 {
@@ -343,7 +345,7 @@ main h2 {
 
 #works h5 {
   font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: bold;
   background-color: #00bfff;
   padding: 10px 0;
@@ -354,6 +356,7 @@ main h2 {
 }
 
 #works h6 {
+  font-size: 24px;
   letter-spacing: 1.4px;
   padding-bottom: 30px;
 } 
@@ -455,7 +458,7 @@ main h2 {
 /* ------------- contact ------------- */
 #contact p {
   width: 90%;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 auto;
   padding-bottom: 16px;
   text-align: center;
@@ -473,7 +476,7 @@ main h2 {
 }
 
 .sns a {
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
 }
 
@@ -515,7 +518,7 @@ footer {
 }
 
 footer h2 {
-  font-size: 14px;
+  font-size: 20px;
   padding-top: 5px;
   font-family: cursive;
 }
@@ -525,5 +528,5 @@ footer h2 {
 }
 
 #hospital {
-  font-size: 20px;
+  font-size: 24px;
 }
