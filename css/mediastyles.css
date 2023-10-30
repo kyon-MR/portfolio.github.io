@@ -232,11 +232,11 @@
   }
 
   .my-name h1 {
-    font-size: 32px;
+    font-size: 24px;
   }
 
   .my-name h2 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   #profile, #skills, #works, #contact {

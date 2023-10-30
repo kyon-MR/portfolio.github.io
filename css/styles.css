@@ -21,18 +21,18 @@ h1 {
 h2 {
   /* font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif; */
   font-family: cursive;
-  font-size: 48px;
+  font-size: 32px;
   font-style: italic;
 }
 
 h3 {
   font-family: "Playfair Display", Georgia, Times, "Times New Roman", serif;
-  font-size: 36px;
+  font-size: 28px;
   font-style: italic;
 }
 
 h4 {
-  font-size: 30px;
+  font-size: 24px;
 }
 
 a {
@@ -71,8 +71,12 @@ header {
   z-index: 2;
 }
 
+header h1 {
+  font-size: 24px;
+}
+
 header h2 {
-  font-size: 18px;
+  font-size: 20px;
   padding-top: 15px;
 }
 
@@ -330,7 +334,7 @@ main h2 {
 }
 
 #works h4 {
-  font-size: 28px;
+  font-size: 24px;
   text-decoration: underline double #00bfff;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -339,7 +343,7 @@ main h2 {
 }
 
 #works .actual h4 {
-  padding-top: 60px;
+  padding-top: 30px;
   padding-bottom: 35px;
 }
 
