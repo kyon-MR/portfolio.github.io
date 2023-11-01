@@ -331,6 +331,7 @@ main h2 {
   border: 2px solid skyblue;
   opacity: 1;
   transform: none;
+  pointer-events: auto;
 }
 
 #works h4 {
