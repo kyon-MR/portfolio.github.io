@@ -197,7 +197,7 @@ header h2 {
 }
 
 #detail {
-  width: 45%;
+  width: 50%;
   background: #fff;
   margin: 20px auto 0;
   pointer-events: auto;
@@ -207,7 +207,7 @@ header h2 {
 #detail a {
   display: block;
   text-align: center;
-  padding: 15px 0;
+  padding: 20px 0;
   font-size: 28px;
   font-weight: bold;
   color: #000327;
