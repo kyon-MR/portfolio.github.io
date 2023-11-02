@@ -57,6 +57,7 @@
   /* ------------- mainphoto ------------- */
   .main-pic img {
     width: 100%;
+    height: auto;
   }
 
   .main-pic p {
@@ -64,6 +65,31 @@
     position: absolute;
     top: 15%;
     left: 8%;
+  }
+
+  #detail {
+    width: 30%;
+    background: #fff;
+    margin: 40px auto 0;
+    cursor: pointer;
+  }
+  
+  #detail a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000327;
+    font-style: normal;
+  }
+
+  .box {
+    display: block;
+  }
+
+  .spbox {
+    display: none;
   }
 
   /* ------------- main ------------- */
@@ -275,7 +301,7 @@
   /* ------------- mainphoto ------------- */
   .main-pic img {
     width: 100%;
-    height: 400px;
+    height: auto;
   }
 
   .main-pic p {
@@ -283,6 +309,23 @@
     top: 15%;
     left: 8%;
     font-size: 24px;
+  }
+
+  #detail {
+    width: 25%;
+    background: #fff;
+    margin: 50px auto 0;
+    cursor: pointer;
+  }
+  
+  #detail a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000327;
+    font-style: normal;
   }
 
 
