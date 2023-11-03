@@ -197,11 +197,12 @@ header h2 {
 }
 
 #detail {
-  width: 50%;
+  width: 75%;
   background: #fff;
   margin: 20px auto 0;
   pointer-events: auto;
   cursor: pointer;
+  border-radius: 50px;
 }
 
 #detail a {
@@ -215,7 +216,7 @@ header h2 {
 }
 
 #detail:hover {
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 .main-pic p {
