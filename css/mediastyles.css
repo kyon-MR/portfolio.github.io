@@ -68,7 +68,7 @@
   }
 
   #detail {
-    width: 30%;
+    width: 50%;
     background: #fff;
     margin: 40px auto 0;
     cursor: pointer;
@@ -204,24 +204,6 @@
     width: 45%;
     margin: 0 auto;
   }
-
-  #detail {
-    width: 50%;
-    background: #fff;
-    margin: 50px auto 0;
-    cursor: pointer;
-  }
-  
-  #detail a {
-    display: block;
-    text-align: center;
-    padding: 20px 0;
-    font-size: 32px;
-    font-weight: bold;
-    color: #000327;
-    font-style: normal;
-  }
-
   /* ------------- contact ------------- */
   .sns {
     margin: 30px 0;
@@ -329,7 +311,7 @@
   }
 
   #detail {
-    width: 40%;
+    width: 35%;
     background: #fff;
     margin: 50px auto 0;
     cursor: pointer;
