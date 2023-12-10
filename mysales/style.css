@@ -58,6 +58,12 @@
 	font-size: 16px;
 }
 
+@media(max-width: 768px) {
+    #sec2 {
+        margin-top: -8px;
+    }
+}
+
 /* FV用背景&CTAボタンの固定配置 -- ここまで -- */
 
 /*大きさの計算*/
