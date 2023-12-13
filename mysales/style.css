@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /* FV用背景&CTAボタンの固定配置 -- ここから -- */
-#sec2, #sec4, #sec6, #sec8, #sec9 {
+#sec2, #sec4, #sec6, #sec8, #sec9, #sec10 {
  position: relative;
 }
 
@@ -35,6 +35,13 @@
 }
 
 .cta5 {
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+    right: 0%;
+}
+
+.cta6 {
     position: absolute;
     bottom: 1%;
     left: 0%;
