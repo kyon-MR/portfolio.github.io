@@ -139,7 +139,7 @@ a:hover {
 
 /***フッター***/
 .footer-section {
-    background: lightgrey; /*好きな色を設定してください*/
+    background: #fff; /*好きな色を設定してください*/
     padding: 2rem;
 }
 
